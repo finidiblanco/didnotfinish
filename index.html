@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DIDNOTFINISH — Atletismo sin filtro</title>
+<meta name="description" content="Cuaderno de atletismo. Récords, disciplinas y el pulso real del atletismo, sin relleno.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#F4F1E8;
+    --ink-dim:#B9B4A6;
+    --bg:#121110;
+    --bg-raised:#1B1917;
+    --bg-card:#1F1D1A;
+    --track:#E1472C;
+    --track-dim:#8a2c1d;
+    --gold:#C9A227;
+    --line:#33302B;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;display:block;}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px;}
+
+  /* Lane rule - track lane marking motif, used as section dividers */
+  .lane-rule{height:3px;background:repeating-linear-gradient(90deg,var(--track) 0 28px, transparent 28px 44px);opacity:.55;}
+
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(18,17,16,.88);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0;}
+  .brand{display:flex;align-items:center;gap:10px;font-family:'Archivo Black',sans-serif;font-size:18px;letter-spacing:.5px;}
+  .brand .dot{width:10px;height:10px;background:var(--track);border-radius:50%;}
+  .navlinks{display:flex;gap:28px;font-size:14px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-dim);}
+  .navlinks a:hover{color:var(--track);}
+  .navclock{font-family:'Space Mono',monospace;font-size:13px;color:var(--gold);letter-spacing:.05em;}
+  .navtoggle{display:none;background:none;border:1px solid var(--line);color:var(--ink);width:38px;height:38px;border-radius:6px;font-size:18px;}
+
+  /* HERO */
+  .hero{
+    padding:96px 0 72px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::before{
+    content:"";
+    position:absolute;inset:0;
+    background:
+      radial-gradient(circle at 82% 8%, rgba(225,71,44,.16), transparent 45%),
+      radial-gradient(circle at 10% 90%, rgba(201,162,39,.10), transparent 40%);
+    pointer-events:none;
+  }
+  .hero-inner{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:end;}
+  .kicker{
+    display:inline-flex;align-items:center;gap:8px;
+    font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--gold);margin-bottom:22px;
+  }
+  .kicker::before{content:"";width:22px;height:1px;background:var(--gold);}
+  h1.title{
+    font-family:'Archivo Black',sans-serif;
+    font-size:clamp(52px,8vw,108px);
+    line-height:.92;
+    letter-spacing:-.01em;
+    text-transform:uppercase;
+  }
+  h1.title span{color:var(--track);}
+  .lede{margin-top:26px;max-width:46ch;font-size:18px;color:var(--ink-dim);}
+  .hero-cta{margin-top:34px;display:inline-flex;align-items:center;gap:10px;padding:14px 26px;background:var(--track);color:#120a08;font-weight:700;border-radius:2px;font-size:15px;letter-spacing:.02em;}
+  .hero-cta:hover{background:#ff5a3c;}
+
+  /* Stopwatch signature element */
+  .stopwatch{
+    background:var(--bg-raised);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:28px 24px;
+    text-align:center;
+  }
+  .stopwatch .label{font-size:11px;text-transform:uppercase;letter-spacing:.16em;color:var(--ink-dim);margin-bottom:10px;}
+  .stopwatch .time{
+    font-family:'Space Mono',monospace;
+    font-weight:700;
+    font-size:clamp(34px,4.2vw,46px);
+    color:var(--gold);
+    letter-spacing:.02em;
+    font-variant-numeric:tabular-nums;
+  }
+  .stopwatch .sub{margin-top:12px;font-size:12px;color:var(--ink-dim);border-top:1px solid var(--line);padding-top:12px;}
+  .stopwatch .sub strong{color:var(--track);}
+
+  /* SECTIONS */
+  section{padding:76px 0;}
+  .section-head{max-width:640px;margin-bottom:44px;}
+  .eyebrow{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--track);margin-bottom:10px;}
+  h2{font-family:'Archivo Black',sans-serif;font-size:clamp(30px,4vw,44px);text-transform:uppercase;line-height:1.02;}
+  .section-desc{margin-top:16px;color:var(--ink-dim);font-size:16.5px;max-width:60ch;}
+
+  .subnav{display:flex;gap:10px;margin-top:26px;}
+  .subnav span{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-dim);border:1px solid var(--line);padding:7px 14px;border-radius:20px;}
+  .subnav span.on{color:var(--bg);background:var(--gold);border-color:var(--gold);}
+
+  .card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+  .news-card{background:var(--bg-card);padding:26px;min-height:200px;display:flex;flex-direction:column;justify-content:space-between;}
+  .news-card .tag{font-family:'Space Mono',monospace;font-size:11px;color:var(--gold);text-transform:uppercase;letter-spacing:.08em;}
+  .news-card h3{margin-top:14px;font-size:19px;font-weight:700;line-height:1.3;}
+  .news-card p{margin-top:10px;font-size:14px;color:var(--ink-dim);}
+
+  table{width:100%;border-collapse:collapse;margin-top:6px;font-size:14.5px;}
+  thead th{
+    text-align:left;font-family:'Space Mono',monospace;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;
+    color:var(--bg);background:var(--gold);padding:12px 14px;
+  }
+  tbody td{padding:13px 14px;border-bottom:1px solid var(--line);color:var(--ink-dim);}
+  tbody tr:hover td{color:var(--ink);background:rgba(225,71,44,.05);}
+  tbody td:first-child{color:var(--ink);font-weight:600;}
+  .record-badge{color:var(--track);font-weight:700;}
+  .table-note{margin-top:14px;font-size:13px;color:var(--ink-dim);font-style:italic;border-left:2px solid var(--track);padding-left:12px;}
+
+  .gallery-note{margin-top:30px;padding:20px;border:1px dashed var(--line);border-radius:6px;font-size:14px;color:var(--ink-dim);}
+
+  .discipline-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+  .disc-card{background:var(--bg-card);padding:30px 26px;}
+  .disc-num{font-family:'Space Mono',monospace;color:var(--track);font-size:13px;letter-spacing:.08em;}
+  .disc-cat{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);margin-top:16px;}
+  .disc-card h3{font-family:'Archivo Black',sans-serif;font-size:21px;text-transform:uppercase;margin-top:8px;}
+  .disc-card p{margin-top:12px;font-size:14.5px;color:var(--ink-dim);}
+
+  .trap{
+    background:var(--bg-raised);
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+    padding:80px 0;
+    text-align:center;
+  }
+  .trap .wrap{max-width:760px;}
+  .trap p{font-size:17.5px;color:var(--ink-dim);margin-top:18px;}
+  .trap .stamp{
+    margin-top:36px;display:inline-block;
+    font-family:'Archivo Black',sans-serif;
+    font-size:22px;text-transform:uppercase;
+    color:var(--track);
+    border:3px solid var(--track);
+    padding:10px 22px;
+    transform:rotate(-3deg);
+    letter-spacing:.03em;
+  }
+
+  footer{padding:56px 0 40px;}
+  .foot-grid{display:flex;justify-content:space-between;flex-wrap:wrap;gap:32px;}
+  .foot-brand{font-family:'Archivo Black',sans-serif;font-size:20px;text-transform:uppercase;}
+  .foot-desc{margin-top:12px;max-width:36ch;font-size:14px;color:var(--ink-dim);}
+  .foot-links{display:flex;flex-direction:column;gap:10px;font-size:14px;}
+  .foot-links .h{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-dim);margin-bottom:6px;}
+  .foot-links a:hover{color:var(--track);}
+  .foot-bottom{margin-top:48px;padding-top:22px;border-top:1px solid var(--line);font-size:12.5px;color:var(--ink-dim);}
+
+  @media (max-width:860px){
+    .hero-inner{grid-template-columns:1fr;gap:36px;}
+    .card-grid,.discipline-grid{grid-template-columns:1fr;}
+    .navlinks,.navclock{display:none;}
+    .navtoggle{display:block;}
+    table{font-size:13px;}
+    thead th, tbody td{padding:10px 8px;}
+  }
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="nav wrap">
+    <a href="#top" class="brand"><span class="dot"></span> DIDNOTFINISH</a>
+    <div class="navlinks">
+      <a href="#noticias">Noticias</a>
+      <a href="#andalucia">Atletismo andaluz</a>
+      <a href="#disciplinas">Disciplinas</a>
+    </div>
+    <div class="navclock" id="navClock">00:00:00.00</div>
+    <button class="navtoggle" aria-label="Menú">☰</button>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div>
+        <div class="kicker">Cuaderno de atletismo — Meta no incluida</div>
+        <h1 class="title">DID<br><span>NOTFINISH</span></h1>
+        <p class="lede">No toda carrera termina en la línea de meta. Aquí sí llegamos hasta el fondo: récords, disciplinas y el pulso real del atletismo, sin relleno.</p>
+        <a href="#noticias" class="hero-cta">Últimas noticias →</a>
+      </div>
+      <div class="stopwatch">
+        <div class="label">Cronómetro en marcha</div>
+        <div class="time" id="heroClock">00:00:00.00</div>
+        <div class="sub">Esta carrera <strong>nunca</strong> llega a meta — como el nombre indica.</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="lane-rule"></div>
+
+  <section id="noticias">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Actualidad</div>
+        <h2>Noticias</h2>
+        <p class="section-desc">La portada de DIDNOTFINISH: actualidad, competición y protagonistas del atletismo dentro y fuera de la pista.</p>
+      </div>
+      <div class="card-grid">
+        <div class="news-card">
+          <div class="tag">Pista</div>
+          <div>
+            <h3>Añade aquí tu próxima noticia</h3>
+            <p>Espacio reservado para tu próxima entrada de portada — título, resumen breve y enlace.</p>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="tag">Ruta</div>
+          <div>
+            <h3>Añade aquí tu próxima noticia</h3>
+            <p>Espacio reservado para tu próxima entrada de portada — título, resumen breve y enlace.</p>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="tag">Combinadas</div>
+          <div>
+            <h3>Añade aquí tu próxima noticia</h3>
+            <p>Espacio reservado para tu próxima entrada de portada — título, resumen breve y enlace.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="lane-rule"></div>
+
+  <section id="andalucia">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Casa</div>
+        <h2>Atletismo andaluz</h2>
+        <p class="section-desc">El nivel de las pistas andaluzas, de cerca: sus mejores marcas y la actualidad que no sale en los titulares nacionales.</p>
+        <div class="subnav">
+          <span class="on">Noticias</span>
+          <span>Récords</span>
+          <span>Galería</span>
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <tr><th>Prueba</th><th>Marca</th><th>Atleta</th><th>Dónde y cuándo</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>200 m femenino</td><td><span class="record-badge">22.97 Récord</span></td><td>Alba Borrero</td><td>Campeonato de España Absoluto, Málaga</td></tr>
+          <tr><td>100 m vallas femenino</td><td>13.37</td><td>Wayra Romero</td><td>Campeonato de España Sub23, Burgos</td></tr>
+          <tr><td>10.000 m marcha femenino</td><td>42:12.93</td><td>María Pérez</td><td>También récord de España absoluto</td></tr>
+          <tr><td>100 m masculino</td><td>Por confirmar</td><td>—</td><td>Añade aquí la marca cuando la confirmes</td></tr>
+          <tr><td>Salto de longitud femenino</td><td>Por confirmar</td><td>—</td><td>Añade aquí la marca cuando la confirmes</td></tr>
+        </tbody>
+      </table>
+      <p class="table-note">Tabla en construcción: solo se han incluido marcas que se pudieron verificar. Sustituye las filas "Por confirmar" a medida que consigas los datos oficiales de la Federación Andaluza de Atletismo.</p>
+
+      <div class="gallery-note">Sustituye este bloque por tus propias fotos (competiciones, entrenamientos, meetings) — añade tus imágenes en <code>/assets/</code> y enlázalas aquí.</div>
+    </div>
+  </section>
+
+  <div class="lane-rule"></div>
+
+  <section id="records">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Marcador</div>
+        <h2>Récords vigentes</h2>
+        <p class="section-desc">Una selección de las plusmarcas que definen el estado actual del deporte, dentro y fuera de la pista.</p>
+      </div>
+
+      <table>
+        <thead>
+          <tr><th>Prueba</th><th>Marca</th><th>Atleta</th><th>Dónde y cuándo</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>100 m masculino</td><td>9.58</td><td>Usain Bolt (JAM)</td><td>Mundial de Berlín, 2009</td></tr>
+          <tr><td>200 m masculino</td><td>19.19</td><td>Usain Bolt (JAM)</td><td>Mundial de Berlín, 2009</td></tr>
+          <tr><td>800 m femenino</td><td>1:53.28</td><td>Jarmila Kratochvílová (TCH)</td><td>Múnich, 1983 — el récord vigente más antiguo</td></tr>
+          <tr><td>Salto con pértiga masculino</td><td><span class="record-badge">6.31 m Récord</span></td><td>Armand "Mondo" Duplantis (SWE)</td><td>Uppsala, 2026 — su 15ª plusmarca mundial</td></tr>
+          <tr><td>Maratón masculino</td><td><span class="record-badge">1:59:30 Récord</span></td><td>Sabastian Sawe (KEN)</td><td>Londres, abril 2026 — primero en bajar de 2h en carrera oficial</td></tr>
+          <tr><td>Maratón femenino</td><td><span class="record-badge">2:15:41 Récord</span></td><td>Tigst Assefa (ETH)</td><td>Londres, abril 2026</td></tr>
+        </tbody>
+      </table>
+      <p class="table-note">Algunas marcas de 2026 siguen sujetas al proceso de ratificación de World Athletics. Última revisión: agosto de 2026.</p>
+    </div>
+  </section>
+
+  <div class="lane-rule"></div>
+
+  <section id="disciplinas">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Guía rápida</div>
+        <h2>Disciplinas</h2>
+        <p class="section-desc">El atletismo en cinco familias. Cada una exige un cuerpo, una estrategia y una forma distinta de sufrir.</p>
+      </div>
+
+      <div class="discipline-grid">
+        <div class="disc-card">
+          <div class="disc-num">01 — Pista</div>
+          <div class="disc-cat">Categoría</div>
+          <h3>Velocidad y fondo</h3>
+          <p>De los 100 m planos a los 10.000 m: explosividad pura en un extremo, gestión del dolor en el otro. Incluye vallas y relevos.</p>
+        </div>
+        <div class="disc-card">
+          <div class="disc-num">02 — Saltos</div>
+          <div class="disc-cat">Categoría</div>
+          <h3>Vertical y horizontal</h3>
+          <p>Altura, pértiga, longitud y triple salto. Técnica milimétrica: unos centímetros de más o de menos deciden la marca.</p>
+        </div>
+        <div class="disc-card">
+          <div class="disc-num">03 — Lanzamientos</div>
+          <div class="disc-cat">Categoría</div>
+          <h3>Fuerza dirigida</h3>
+          <p>Peso, disco, martillo y jabalina. Cada implemento pesa y vuela distinto, así que cada uno tiene su propia técnica de lanzamiento.</p>
+        </div>
+        <div class="disc-card">
+          <div class="disc-num">04 — Ruta</div>
+          <div class="disc-cat">Categoría</div>
+          <h3>Fuera del estadio</h3>
+          <p>Maratón, media maratón y marcha. Aquí el rival no solo es el cronómetro, también el terreno, el clima y la logística de horas de carrera.</p>
+        </div>
+        <div class="disc-card">
+          <div class="disc-num">05 — Combinadas</div>
+          <div class="disc-cat">Categoría</div>
+          <h3>El decatlón y el heptatlón</h3>
+          <p>Diez o siete pruebas en dos días. Gana quien mejor reparte el esfuerzo, no quien mejor hace una sola cosa.</p>
+        </div>
+        <div class="disc-card">
+          <div class="disc-num">06 — Pista cubierta</div>
+          <div class="disc-cat">Categoría</div>
+          <h3>El invierno también compite</h3>
+          <p>Versión indoor de la temporada, con óvalos más cortos y algunas pruebas propias, como los 60 m lisos y vallas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="trap">
+    <div class="wrap">
+      <div class="eyebrow" style="justify-content:center;display:flex;">El porqué del nombre</div>
+      <h2>El nombre es la trampa</h2>
+      <p>"Did not finish" es lo que marca el acta cuando un atleta no cruza la meta. Nosotros le damos la vuelta: aquí sí terminamos la historia completa, con contexto, sin titulares vacíos ni marcador a medias. La carrera de cada récord empieza mucho antes del disparo de salida.</p>
+      <div class="stamp">Aquí no hay DNF</div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="#top" class="foot-brand">DIDNOTFINISH</a>
+        <p class="foot-desc">Un cuaderno independiente de atletismo. Récords, disciplinas y contexto, actualizado a mano.</p>
+      </div>
+      <div class="foot-links">
+        <div class="h">Explorar</div>
+        <a href="#noticias">Noticias</a>
+        <a href="#andalucia">Atletismo andaluz</a>
+        <a href="#disciplinas">Disciplinas</a>
+      </div>
+    </div>
+    <div class="foot-bottom">© <span id="year"></span> DIDNOTFINISH. Reconstrucción del sitio original.</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Stopwatch that never stops — reinforces "did not finish"
+  const start = Date.now();
+  const clocks = [document.getElementById('heroClock'), document.getElementById('navClock')];
+  function pad(n, len){ return String(n).padStart(len, '0'); }
+  function tick(){
+    const elapsed = Date.now() - start;
+    const h = Math.floor(elapsed / 3600000);
+    const m = Math.floor((elapsed % 3600000) / 60000);
+    const s = Math.floor((elapsed % 60000) / 1000);
+    const cs = Math.floor((elapsed % 1000) / 10);
+    const str = `${pad(h,2)}:${pad(m,2)}:${pad(s,2)}.${pad(cs,2)}`;
+    clocks.forEach(c => { if(c) c.textContent = str; });
+    requestAnimationFrame(tick);
+  }
+  if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    requestAnimationFrame(tick);
+  }
+
+  // Mobile nav toggle
+  const toggle = document.querySelector('.navtoggle');
+  const links = document.querySelector('.navlinks');
+  if(toggle){
+    toggle.addEventListener('click', () => {
+      links.style.display = links.style.display === 'flex' ? 'none' : 'flex';
+      links.style.flexDirection = 'column';
+      links.style.position = 'absolute';
+      links.style.top = '64px';
+      links.style.right = '24px';
+      links.style.background = '#1B1917';
+      links.style.border = '1px solid #33302B';
+      links.style.padding = '16px 20px';
+      links.style.gap = '14px';
+    });
+  }
+</script>
+
+</body>
+</html>
