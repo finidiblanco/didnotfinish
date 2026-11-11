@@ -14,6 +14,325 @@
 // ---------------------------------------------------------------
 export const GENERAL_NEWS = [
   {
+    "slug": "minimas-olimpicas-la28-records-espana",
+    "date": "11 nov 2026",
+    "tag": "Mínimas",
+    "title": "Mínimas de LA28: en 20 de 39 pruebas ni el récord de España llega",
+    "subtitle": "World Athletics endurece las marcas de entrada para Los Ángeles 2028; las comparamos prueba a prueba con los récords absolutos de España",
+    "image": "/images/minimas-la28-portada.png",
+    "imageAlt": "En 20 de 39 pruebas ni el récord de España llega a la mínima olímpica de LA28",
+    "imageCaption": "Infografía: DIDNOTFINISH, con datos de World Athletics y la RFEA.",
+    "body": "<strong>11 de noviembre de 2026.</strong> World Athletics publicó el 10 de noviembre las marcas de entrada para los Juegos de Los Ángeles 2028 y ha endurecido todas las carreras respecto a París 2024. Frente a los récords absolutos de España al aire libre, en 19 pruebas el récord ya supera la mínima; en 20, ni la mejor marca de la historia española alcanza.",
+    "sections": [
+      {
+        "heading": "Qué ha cambiado respecto a París",
+        "paragraphs": [
+          "Las marcas de entrada bajan en todas las carreras: el maratón masculino pasa de 2:08:10 a 2:05:00 y el femenino, de 2:26:50 a 2:22:20; en 1.500 m, de 3:33.50 a 3:30.00 (hombres) y de 4:02.50 a 3:57.50 (mujeres). En los concursos el movimiento es menor y desigual: suben pértiga, longitud, triple masculino, martillo masculino, peso y disco femeninos, decatlón y heptatlón; se mantienen peso, disco y jabalina masculinos, altura femenina y martillo femenino, y tres marcas se relajan ligeramente (altura masculina, triple femenino y jabalina femenina).",
+          "El sistema también cambia. Alrededor del <strong>40 %</strong> de los atletas entrará por marca y el <strong>60 %</strong> por ranking mundial, frente al 50/50 de París. Si en una prueba más atletas alcanzan la mínima que plazas hay, entran los de mejores marcas del periodo y ya no hay plazas por ranking."
+        ]
+      },
+      {
+        "heading": "Dónde está la distancia",
+        "image": "/images/infografia-minimas-la28.png",
+        "imageAlt": "Infografía con la distancia entre el récord de España y la mínima de LA28 en cada prueba: 20 de 39 sin llegar",
+        "imageCaption": "Distancia entre el récord de España y la mínima de LA28, prueba a prueba. Rojo: el récord no llega; negro: ya la supera.",
+        "paragraphs": [
+          "Entre los hombres, el récord no llega en <strong>10 de 20</strong> pruebas. Las más ajustadas son 200 m (0.09 s), 10.000 m (1.49 s), 400 m vallas (0.11 s), peso (0.03 m). El maratón queda a 48 s (2:05:48 de Tariku Novales frente a 2:05:00) y el decatlón, a 116 pts. En los 100 m, el 10.06 de Hortelano queda a 0.13 s del 9.93 exigido.",
+          "Entre las mujeres, el récord no llega en <strong>10 de 19</strong> pruebas. En el medio fondo y el obstáculos se quedan a décimas o a poco más de un segundo (800 m (0.45 s), 1.500 m (0.25 s), 3.000 m obst. (1.32 s)), pero en los lanzamientos y las combinadas la distancia es otra: disco (3.11 m, con 61.89 frente a 65.00) y heptatlón (246 pts, con 6.304 frente a 6.550) son las brechas más grandes de toda la comparación.",
+          "En porcentaje sobre la mínima, la prueba más lejana es el disco femenino (4.8 %) y la más cercana, los 10.000 m masculinos (0.09 %: 26:49.49 de Thierry Ndikumwenayo frente a 26:48.00)."
+        ]
+      },
+      {
+        "heading": "Lo que esta comparación no dice",
+        "list": [
+          "<strong>Un récord que supera la mínima no es un atleta que la tenga.</strong> De los 19 récords que ya superan la marca exigida, 8 se establecieron entre 1991 y 2010 (Ortiz en altura, Lamela en longitud, Beitia, Montalvo, Myers, Onyia, Chilla, Pestano…). Que el récord la supere no significa que los atletas actuales estén cerca.",
+          "<strong>Ninguna marca de hoy cuenta todavía.</strong> Las ventanas de clasificación son: maratón, del 1 de noviembre de 2026 al 30 de abril de 2028; 10.000 m, combinadas, marchas y relevos, del 19 de diciembre de 2026 al 18 de junio de 2028; resto de pruebas, del 19 de junio de 2027 al 18 de junio de 2028.",
+          "<strong>Alcanzar la mínima no garantiza plaza</strong>, y el 60 % de las plazas se reparte por ranking, donde la regularidad pesa tanto como una sola marca."
+        ]
+      },
+      {
+        "heading": "La comparación, prueba a prueba",
+        "paragraphs": [
+          "Mínima de LA28 (entre paréntesis, la de París 2024), récord absoluto de España al aire libre y diferencia entre ambos."
+        ],
+        "tables": [
+          {
+            "caption": "Hombres",
+            "headers": [
+              "Prueba",
+              "Mínima LA28",
+              "Récord de España",
+              "Diferencia"
+            ],
+            "rows": [
+              [
+                "100 m",
+                "9.93<br><span style=\"opacity:.6\">París 10.00</span>",
+                "10.06<br><span style=\"opacity:.6\">Hortelano, 2016</span>",
+                "<strong>+0.13 s</strong>"
+              ],
+              [
+                "200 m",
+                "19.95<br><span style=\"opacity:.6\">París 20.16</span>",
+                "20.04<br><span style=\"opacity:.6\">Hortelano, 2018</span>",
+                "<strong>+0.09 s</strong>"
+              ],
+              [
+                "400 m",
+                "44.40<br><span style=\"opacity:.6\">París 45.00</span>",
+                "44.69<br><span style=\"opacity:.6\">Hortelano, 2018</span>",
+                "<strong>+0.29 s</strong>"
+              ],
+              [
+                "800 m",
+                "1:43.00<br><span style=\"opacity:.6\">París 1:44.70</span>",
+                "1:42.04<br><span style=\"opacity:.6\">Attaoui, 2024</span>",
+                "−0.96 s"
+              ],
+              [
+                "1.500 m",
+                "3:30.00<br><span style=\"opacity:.6\">París 3:33.50</span>",
+                "3:28.76<br><span style=\"opacity:.6\">Katir, 2021</span>",
+                "−1.24 s"
+              ],
+              [
+                "5.000 m",
+                "12:50.00<br><span style=\"opacity:.6\">París 13:05.00</span>",
+                "12:45.01<br><span style=\"opacity:.6\">Katir, 2023</span>",
+                "−4.99 s"
+              ],
+              [
+                "10.000 m",
+                "26:48.00<br><span style=\"opacity:.6\">París 27:00.00</span>",
+                "26:49.49<br><span style=\"opacity:.6\">Ndikumwenayo, 2024</span>",
+                "<strong>+1.49 s</strong>"
+              ],
+              [
+                "Maratón",
+                "2:05:00<br><span style=\"opacity:.6\">París 2:08:10</span>",
+                "2:05:48<br><span style=\"opacity:.6\">Novales, 2023</span>",
+                "<strong>+48 s</strong>"
+              ],
+              [
+                "110 m vallas",
+                "13.18<br><span style=\"opacity:.6\">París 13.27</span>",
+                "13.04<br><span style=\"opacity:.6\">Ortega, 2016</span>",
+                "−0.14 s"
+              ],
+              [
+                "400 m vallas",
+                "48.00<br><span style=\"opacity:.6\">París 48.70</span>",
+                "48.11<br><span style=\"opacity:.6\">J. D. Delgado, 2026</span>",
+                "<strong>+0.11 s</strong>"
+              ],
+              [
+                "3.000 m obst.",
+                "8:07.50<br><span style=\"opacity:.6\">París 8:15.00</span>",
+                "8:05.69<br><span style=\"opacity:.6\">Carro, 2019</span>",
+                "−1.81 s"
+              ],
+              [
+                "Altura",
+                "2.32<br><span style=\"opacity:.6\">París 2.33</span>",
+                "2.34<br><span style=\"opacity:.6\">Ortiz, 1991</span>",
+                "−0.02 m"
+              ],
+              [
+                "Pértiga",
+                "5.90<br><span style=\"opacity:.6\">París 5.82</span>",
+                "5.81<br><span style=\"opacity:.6\">Miranda, 2000</span>",
+                "<strong>+0.09 m</strong>"
+              ],
+              [
+                "Longitud",
+                "8.30<br><span style=\"opacity:.6\">París 8.27</span>",
+                "8.56<br><span style=\"opacity:.6\">Lamela, 1999</span>",
+                "−0.26 m"
+              ],
+              [
+                "Triple salto",
+                "17.35<br><span style=\"opacity:.6\">París 17.22</span>",
+                "18.18<br><span style=\"opacity:.6\">J. Díaz, 2024</span>",
+                "−0.83 m"
+              ],
+              [
+                "Peso",
+                "21.50<br><span style=\"opacity:.6\">París 21.50</span>",
+                "21.47<br><span style=\"opacity:.6\">M. Martínez, 2002</span>",
+                "<strong>+0.03 m</strong>"
+              ],
+              [
+                "Disco",
+                "67.20<br><span style=\"opacity:.6\">París 67.20</span>",
+                "69.50<br><span style=\"opacity:.6\">Pestano, 2008</span>",
+                "−2.30 m"
+              ],
+              [
+                "Martillo",
+                "78.50<br><span style=\"opacity:.6\">París 78.20</span>",
+                "79.38<br><span style=\"opacity:.6\">Cienfuegos, 2019</span>",
+                "−0.88 m"
+              ],
+              [
+                "Jabalina",
+                "85.50<br><span style=\"opacity:.6\">París 85.50</span>",
+                "84.80<br><span style=\"opacity:.6\">Jainaga, 2021</span>",
+                "<strong>+0.70 m</strong>"
+              ],
+              [
+                "Decatlón",
+                "8650<br><span style=\"opacity:.6\">París 8460</span>",
+                "8534<br><span style=\"opacity:.6\">Peñalver, 1994</span>",
+                "<strong>+116 pts</strong>"
+              ]
+            ]
+          },
+          {
+            "caption": "Mujeres",
+            "headers": [
+              "Prueba",
+              "Mínima LA28",
+              "Récord de España",
+              "Diferencia"
+            ],
+            "rows": [
+              [
+                "100 m",
+                "10.96<br><span style=\"opacity:.6\">París 11.07</span>",
+                "11.06<br><span style=\"opacity:.6\">Myers, 1991</span>",
+                "<strong>+0.10 s</strong>"
+              ],
+              [
+                "200 m",
+                "22.25<br><span style=\"opacity:.6\">París 22.57</span>",
+                "22.19<br><span style=\"opacity:.6\">Bestué, 2025</span>",
+                "−0.06 s"
+              ],
+              [
+                "400 m",
+                "49.90<br><span style=\"opacity:.6\">París 50.95</span>",
+                "49.67<br><span style=\"opacity:.6\">Myers, 1991</span>",
+                "−0.23 s"
+              ],
+              [
+                "800 m",
+                "1:57.00<br><span style=\"opacity:.6\">París 1:59.30</span>",
+                "1:57.45<br><span style=\"opacity:.6\">Zúñiga, 1988</span>",
+                "<strong>+0.45 s</strong>"
+              ],
+              [
+                "1.500 m",
+                "3:57.50<br><span style=\"opacity:.6\">París 4:02.50</span>",
+                "3:57.75<br><span style=\"opacity:.6\">M. Pérez, 2024</span>",
+                "<strong>+0.25 s</strong>"
+              ],
+              [
+                "5.000 m",
+                "14:34.00<br><span style=\"opacity:.6\">París 14:52.00</span>",
+                "14:33.40<br><span style=\"opacity:.6\">M. García, 2025</span>",
+                "−0.60 s"
+              ],
+              [
+                "10.000 m",
+                "30:30.00<br><span style=\"opacity:.6\">París 30:40.00</span>",
+                "30:51.69<br><span style=\"opacity:.6\">M. Domínguez, 2006</span>",
+                "<strong>+21.69 s</strong>"
+              ],
+              [
+                "Maratón",
+                "2:22:20<br><span style=\"opacity:.6\">París 2:26:50</span>",
+                "2:21:27<br><span style=\"opacity:.6\">Maayouf, 2023</span>",
+                "−53 s"
+              ],
+              [
+                "100 m vallas",
+                "12.58<br><span style=\"opacity:.6\">París 12.77</span>",
+                "12.50<br><span style=\"opacity:.6\">Onyia, 2008</span>",
+                "−0.08 s"
+              ],
+              [
+                "400 m vallas",
+                "54.00<br><span style=\"opacity:.6\">París 54.85</span>",
+                "54.34<br><span style=\"opacity:.6\">S. Gallego, 2022</span>",
+                "<strong>+0.34 s</strong>"
+              ],
+              [
+                "3.000 m obst.",
+                "9:06.00<br><span style=\"opacity:.6\">París 9:23.00</span>",
+                "9:07.32<br><span style=\"opacity:.6\">M. Domínguez, 2009</span>",
+                "<strong>+1.32 s</strong>"
+              ],
+              [
+                "Altura",
+                "1.97<br><span style=\"opacity:.6\">París 1.97</span>",
+                "2.02<br><span style=\"opacity:.6\">Beitia, 2007</span>",
+                "−0.05 m"
+              ],
+              [
+                "Longitud",
+                "6.90<br><span style=\"opacity:.6\">París 6.86</span>",
+                "7.06<br><span style=\"opacity:.6\">Montalvo, 1999</span>",
+                "−0.16 m"
+              ],
+              [
+                "Triple salto",
+                "14.50<br><span style=\"opacity:.6\">París 14.55</span>",
+                "14.87<br><span style=\"opacity:.6\">Peleteiro, 2021</span>",
+                "−0.37 m"
+              ],
+              [
+                "Peso",
+                "19.30<br><span style=\"opacity:.6\">París 18.80</span>",
+                "18.80<br><span style=\"opacity:.6\">Toimil, 2021</span>",
+                "<strong>+0.50 m</strong>"
+              ],
+              [
+                "Disco",
+                "65.00<br><span style=\"opacity:.6\">París 64.50</span>",
+                "61.89<br><span style=\"opacity:.6\">Asenjo, 2016</span>",
+                "<strong>+3.11 m</strong>"
+              ],
+              [
+                "Martillo",
+                "74.00<br><span style=\"opacity:.6\">París 74.00</span>",
+                "72.00<br><span style=\"opacity:.6\">L. Redondo, 2022</span>",
+                "<strong>+2.00 m</strong>"
+              ],
+              [
+                "Jabalina",
+                "63.80<br><span style=\"opacity:.6\">París 64.00</span>",
+                "64.07<br><span style=\"opacity:.6\">Chilla, 2010</span>",
+                "−0.27 m"
+              ],
+              [
+                "Heptatlón",
+                "6550<br><span style=\"opacity:.6\">París 6480</span>",
+                "6304<br><span style=\"opacity:.6\">M. Vicente, 2021</span>",
+                "<strong>+246 pts</strong>"
+              ]
+            ]
+          }
+        ],
+        "after": [
+          "<em>Diferencia: «+» es lo que le falta al récord para igualar la mínima (en negrita, no llega); «−» es lo que la supera.</em>"
+        ]
+      },
+      {
+        "heading": "Notas sobre los datos y fuentes",
+        "list": [
+          "Récords de España absolutos al aire libre. Los femeninos proceden de la ficha oficial de la RFEA; los masculinos, de una recopilación basada en la ficha oficial actualizada a 25 de octubre de 2026, pendiente de contrastar con la página de la RFEA.",
+          "Pértiga femenina excluida: las fuentes consultadas no coinciden en cuál es el récord al aire libre.",
+          "La RFEA lista dos marcas femeninas recientes pendientes de homologación (jabalina 65.39 y heptatlón 6.372); se usan las ratificadas (64.07 y 6.304). En el heptatlón la conclusión no cambia: 6.372 sigue lejos de 6.550.",
+          "En 3.000 m obstáculos femeninos se usa 9:07.32 (Marta Domínguez, Berlín 2009).",
+          "Las marchas no tienen mínima publicada en las fuentes consultadas y quedan fuera."
+        ],
+        "after": [
+          "<strong>Fuentes:</strong> <a href=\"https://athleticsillustrated.com/la-28-qualification-standards-are-out-and-they-are-more-difficult/\" target=\"_blank\" rel=\"noopener\">Athletics Illustrated</a> · <a href=\"https://www.jamaicaobserver.com/2026/11/10/world-athletics-raises-bar-la28-new-olympic-qualifying-standards-unveiled/\" target=\"_blank\" rel=\"noopener\">Jamaica Observer</a> · <a href=\"https://cada-atletismo.org/world-athletics-anuncia-el-sistema-de-clasificacion-para-los-angeles-2028/\" target=\"_blank\" rel=\"noopener\">CADA</a> · <a href=\"https://www.rfeacontent.es/records/recordsESP_ABS_mujeres.htm\" target=\"_blank\" rel=\"noopener\">RFEA (récords femeninos)</a> · <a href=\"https://en.wikipedia.org/wiki/List_of_Spanish_records_in_athletics\" target=\"_blank\" rel=\"noopener\">Wikipedia (récords de España)</a>"
+        ]
+      }
+    ]
+  },
+  {
   "slug": "cronica-cross-italica-2026",
   "date": "9 nov 2026",
   "tag": "Cross",
