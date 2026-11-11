@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mínimas olímpicas LA28 frente a los récords de España — DIDNOTFINISH</title>
+<meta name="description" content="World Athletics endurece las mínimas para Los Ángeles 2028. Las comparamos con los récords absolutos de España: en 20 de 39 pruebas ni el récord llega.">
+<meta property="og:title" content="Mínimas LA28: en 20 de 39 pruebas ni el récord de España llega">
+<meta property="og:description" content="Comparativa prueba a prueba entre las mínimas olímpicas de Los Ángeles 2028 y los récords absolutos de España.">
+<meta property="og:image" content="assets/infografia-minimas-la28.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#F4F1E8;--ink-dim:#B9B4A6;--bg:#121110;--bg-raised:#1B1917;--bg-card:#1F1D1A;--track:#E1472C;--gold:#C9A227;--line:#33302B;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--bg);color:var(--ink);font-family:'Inter',sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;}
+  a{color:inherit;}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px;}
+  .lane-rule{height:3px;background:repeating-linear-gradient(90deg,var(--track) 0 28px, transparent 28px 44px);opacity:.55;}
+  header{position:sticky;top:0;z-index:50;background:rgba(18,17,16,.88);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;}
+  .brand{display:flex;align-items:center;gap:10px;font-family:'Archivo Black',sans-serif;font-size:18px;letter-spacing:.5px;text-decoration:none;}
+  .brand .dot{width:10px;height:10px;background:var(--track);border-radius:50%;}
+  .navlinks{display:flex;gap:28px;font-size:14px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-dim);}
+  .navlinks a{text-decoration:none;} .navlinks a:hover{color:var(--track);}
+  article{padding:64px 0 40px;}
+  .narrow{max-width:760px;margin:0 auto;padding:0 24px;}
+  .kicker{display:inline-flex;align-items:center;gap:8px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:20px;}
+  .kicker::before{content:"";width:22px;height:1px;background:var(--gold);}
+  h1{font-family:'Archivo Black',sans-serif;font-size:clamp(32px,5.6vw,58px);line-height:1;text-transform:uppercase;}
+  h1 span{color:var(--track);}
+  .lede{margin-top:24px;font-size:19px;color:var(--ink-dim);}
+  .byline{margin-top:22px;font-family:'Space Mono',monospace;font-size:12px;color:var(--ink-dim);letter-spacing:.05em;}
+  .body h2{font-family:'Archivo Black',sans-serif;font-size:clamp(22px,3vw,30px);text-transform:uppercase;line-height:1.05;margin:46px 0 14px;}
+  .body p{margin-top:16px;font-size:17px;}
+  .body p.dim{color:var(--ink-dim);}
+  .body ul{margin:16px 0 0 20px;} .body li{margin-top:10px;font-size:17px;}
+  .body strong{color:var(--gold);font-weight:700;}
+  .figure{max-width:1120px;margin:44px auto 0;padding:0 24px;}
+  .figure .cap{margin-top:12px;font-size:13px;color:var(--ink-dim);}
+  .actions{margin-top:14px;display:flex;gap:12px;flex-wrap:wrap;}
+  .btn{display:inline-block;padding:10px 18px;border:1px solid var(--line);font-size:13px;font-weight:600;letter-spacing:.03em;text-decoration:none;color:var(--ink);border-radius:2px;}
+  .btn:hover{border-color:var(--track);color:var(--track);}
+  .tt{font-family:'Archivo Black',sans-serif;text-transform:uppercase;font-size:20px;margin:36px 0 8px;}
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);}
+  table{width:100%;border-collapse:collapse;font-size:14px;min-width:720px;}
+  thead th{text-align:left;font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:#121110;background:var(--gold);padding:11px 12px;}
+  tbody td{padding:10px 12px;border-bottom:1px solid var(--line);color:var(--ink);font-variant-numeric:tabular-nums;}
+  tbody td.dim,.dim{color:var(--ink-dim);}
+  tbody td:first-child{font-weight:600;}
+  tbody tr:hover td{background:rgba(225,71,44,.05);}
+  td small{color:var(--ink-dim);}
+  .record-badge{color:var(--track);font-weight:700;}
+  .ok{color:var(--gold);font-weight:700;}
+  .note{margin-top:14px;font-size:13.5px;color:var(--ink-dim);font-style:italic;border-left:2px solid var(--track);padding-left:12px;}
+  .sources{margin-top:48px;border-top:1px solid var(--line);padding-top:22px;font-size:14px;color:var(--ink-dim);}
+  .sources li{margin-top:8px;font-size:14px;} .sources a:hover{color:var(--track);}
+  footer{padding:40px 0;border-top:1px solid var(--line);margin-top:30px;}
+  .foot-bottom{font-size:12.5px;color:var(--ink-dim);}
+  @media (max-width:860px){.navlinks{display:none;} article{padding-top:40px;} .lede{font-size:17px;}}
+
+.info{--ink:#F4F1E8;--ink-dim:#B9B4A6;--bg:#121110;--bg-raised:#1B1917;--track:#E1472C;--gold:#C9A227;--line:#33302B;
+  background:var(--bg);color:var(--ink);font-family:'Inter',sans-serif;border:1px solid var(--line);padding:28px 24px 22px;}
+.info *{box-sizing:border-box;margin:0;padding:0;}
+.info .i-kick{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);}
+.info h3{font-family:'Archivo Black',sans-serif;font-size:clamp(26px,5.2vw,44px);line-height:1;text-transform:uppercase;margin-top:12px;}
+.info h3 span{color:var(--track);}
+.info .i-sub{margin-top:12px;color:var(--ink-dim);font-size:15px;max-width:62ch;line-height:1.45;}
+.info .i-hero{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:20px;}
+.info .i-hero div{background:var(--bg-raised);padding:14px 14px 12px;}
+.info .i-hero b{display:block;font-family:'Space Mono',monospace;font-size:clamp(26px,5vw,40px);color:var(--gold);line-height:1;font-variant-numeric:tabular-nums;}
+.info .i-hero b.r{color:var(--track);}
+.info .i-hero span{display:block;margin-top:6px;font-size:12px;color:var(--ink-dim);line-height:1.3;}
+.info .i-cols{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:24px;}
+.info .i-colhead{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--line);padding-bottom:8px;}
+.info .i-colhead h4{font-family:'Archivo Black',sans-serif;font-size:20px;text-transform:uppercase;}
+.info .i-colhead small{font-family:'Space Mono',monospace;font-size:11px;color:var(--ink-dim);letter-spacing:.04em;}
+.info .i-axis{display:grid;grid-template-columns:104px 1fr 78px;gap:8px;margin-top:8px;font-family:'Space Mono',monospace;font-size:10px;color:var(--ink-dim);letter-spacing:.03em;}
+.info .i-axis .mid{display:flex;justify-content:space-between;}
+.info .i-axis .val{text-align:right;}
+.info .row{display:grid;grid-template-columns:104px 1fr 78px;gap:8px;align-items:center;min-height:32px;border-bottom:1px solid #26231f;}
+.info .row .n{font-size:13px;font-weight:600;color:var(--ink);line-height:1.15;}
+.info .row .t{position:relative;height:100%;min-height:32px;}
+.info .row .t::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:#4a453d;}
+.info .row .bar{position:absolute;top:50%;height:14px;margin-top:-7px;min-width:3px;}
+.info .row .bar.short{background:var(--track);border-radius:0 4px 4px 0;}
+.info .row .bar.beats{background:var(--gold);border-radius:4px 0 0 4px;}
+.info .row .v{text-align:right;font-family:'Space Mono',monospace;font-size:12px;color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap;}
+.info .i-leg{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:20px;font-size:12.5px;color:var(--ink-dim);align-items:center;}
+.info .i-leg i{display:inline-block;width:22px;height:12px;vertical-align:-1px;margin-right:7px;}
+.info .i-leg i.s{background:var(--track);border-radius:0 4px 4px 0;}
+.info .i-leg i.b{background:var(--gold);border-radius:4px 0 0 4px;}
+.info .i-foot{margin-top:14px;font-size:11.5px;color:var(--ink-dim);line-height:1.5;border-top:1px solid var(--line);padding-top:12px;}
+.info .i-foot b{color:var(--ink);font-weight:600;}
+@media (max-width:760px){.info .i-cols{grid-template-columns:1fr;gap:34px;}.info{padding:22px 14px 18px;}.info .i-hero div{padding:12px 10px;}}
+
+</style>
+</head>
+<body>
+<header>
+  <nav class="nav">
+    <a href="../index.html" class="brand"><span class="dot"></span> DIDNOTFINISH</a>
+    <div class="navlinks"><a href="../index.html#noticias">Noticias</a><a href="../index.html#andalucia">Atletismo andaluz</a><a href="../index.html#disciplinas">Disciplinas</a></div>
+  </nav>
+</header>
+<main>
+<article>
+  <div class="narrow">
+    <div class="kicker">Pista · Actualidad · 11 nov 2026</div>
+    <h1>Mínimas de LA28: en <span>20 de 39 pruebas</span> ni el récord de España llega</h1>
+    <p class="lede">World Athletics publicó el 10 de noviembre las marcas de entrada para los Juegos de Los Ángeles 2028 y ha endurecido todas las carreras respecto a París 2024. Las hemos puesto frente a los récords absolutos de España al aire libre: en 19 pruebas el récord ya las supera; en 20, ni la mejor marca de la historia española alcanza.</p>
+    <div class="byline">DIDNOTFINISH · Atletismo sin filtro</div>
+  </div>
+
+  <div class="figure">
+    <div class="info" id="infografia">
+  <div class="i-kick">DIDNOTFINISH · Atletismo sin filtro · LA28</div>
+  <h3>¿Llega el récord de España a la <span>mínima olímpica</span>?</h3>
+  <p class="i-sub">Mínimas de World Athletics para Los Ángeles 2028 frente a los récords absolutos de España al aire libre. Cuanto más a la derecha, más lejos queda el récord de la mínima.</p>
+  <div class="i-hero">
+    <div><b class="r">20<small style="font-size:.5em;color:var(--ink-dim)"> / 39</small></b><span>pruebas donde ni el récord de España llega a la mínima</span></div>
+    <div><b>19<small style="font-size:.5em;color:var(--ink-dim)"> / 39</small></b><span>pruebas donde el récord ya la supera</span></div>
+    <div><b>8<small style="font-size:.5em;color:var(--ink-dim)"> / 19</small></b><span>de esos récords tienen más de 15 años (1991–2010)</span></div>
+  </div>
+  <div class="i-cols">
+    <div>
+      <div class="i-colhead"><h4>Hombres</h4><small>10 de 20 sin llegar</small></div>
+      <div class="i-axis"><span></span><span class="mid"><span>◀ la supera</span><span>falta ▶</span></span><span class="val">dif.</span></div>
+      <div class="row" title="Pértiga: mínima 5.90, récord de España 5.81 (Miranda, 2000) — al récord le faltan 0.09 m"><span class="n">Pértiga</span><span class="t" role="img" aria-label="Pértiga: mínima 5.90, récord de España 5.81 (Miranda, 2000) — al récord le faltan 0.09 m"><span class="bar short" style="left:50.00%;width:15.25%"></span></span><span class="v">+0.09 m</span></div>
+<div class="row" title="Decatlón: mínima 8650, récord de España 8534 (Peñalver, 1994) — al récord le faltan 116 pts"><span class="n">Decatlón</span><span class="t" role="img" aria-label="Decatlón: mínima 8650, récord de España 8534 (Peñalver, 1994) — al récord le faltan 116 pts"><span class="bar short" style="left:50.00%;width:13.41%"></span></span><span class="v">+116 pts</span></div>
+<div class="row" title="100 m: mínima 9.93, récord de España 10.06 (Hortelano, 2016) — al récord le faltan 0.13 s"><span class="n">100 m</span><span class="t" role="img" aria-label="100 m: mínima 9.93, récord de España 10.06 (Hortelano, 2016) — al récord le faltan 0.13 s"><span class="bar short" style="left:50.00%;width:13.09%"></span></span><span class="v">+0.13 s</span></div>
+<div class="row" title="Jabalina: mínima 85.50, récord de España 84.80 (Jainaga, 2021) — al récord le faltan 0.70 m"><span class="n">Jabalina</span><span class="t" role="img" aria-label="Jabalina: mínima 85.50, récord de España 84.80 (Jainaga, 2021) — al récord le faltan 0.70 m"><span class="bar short" style="left:50.00%;width:8.19%"></span></span><span class="v">+0.70 m</span></div>
+<div class="row" title="400 m: mínima 44.40, récord de España 44.69 (Hortelano, 2018) — al récord le faltan 0.29 s"><span class="n">400 m</span><span class="t" role="img" aria-label="400 m: mínima 44.40, récord de España 44.69 (Hortelano, 2018) — al récord le faltan 0.29 s"><span class="bar short" style="left:50.00%;width:6.53%"></span></span><span class="v">+0.29 s</span></div>
+<div class="row" title="Maratón: mínima 2:05:00, récord de España 2:05:48 (Novales, 2023) — al récord le faltan 48 s"><span class="n">Maratón</span><span class="t" role="img" aria-label="Maratón: mínima 2:05:00, récord de España 2:05:48 (Novales, 2023) — al récord le faltan 48 s"><span class="bar short" style="left:50.00%;width:6.40%"></span></span><span class="v">+48 s</span></div>
+<div class="row" title="200 m: mínima 19.95, récord de España 20.04 (Hortelano, 2018) — al récord le faltan 0.09 s"><span class="n">200 m</span><span class="t" role="img" aria-label="200 m: mínima 19.95, récord de España 20.04 (Hortelano, 2018) — al récord le faltan 0.09 s"><span class="bar short" style="left:50.00%;width:4.51%"></span></span><span class="v">+0.09 s</span></div>
+<div class="row" title="400 m vallas: mínima 48.00, récord de España 48.11 (J. D. Delgado, 2026) — al récord le faltan 0.11 s"><span class="n">400 m vallas</span><span class="t" role="img" aria-label="400 m vallas: mínima 48.00, récord de España 48.11 (J. D. Delgado, 2026) — al récord le faltan 0.11 s"><span class="bar short" style="left:50.00%;width:2.29%"></span></span><span class="v">+0.11 s</span></div>
+<div class="row" title="Peso: mínima 21.50, récord de España 21.47 (M. Martínez, 2002) — al récord le faltan 0.03 m"><span class="n">Peso</span><span class="t" role="img" aria-label="Peso: mínima 21.50, récord de España 21.47 (M. Martínez, 2002) — al récord le faltan 0.03 m"><span class="bar short" style="left:50.00%;width:1.40%"></span></span><span class="v">+0.03 m</span></div>
+<div class="row" title="10.000 m: mínima 26:48.00, récord de España 26:49.49 (Ndikumwenayo, 2024) — al récord le faltan 1.49 s"><span class="n">10.000 m</span><span class="t" role="img" aria-label="10.000 m: mínima 26:48.00, récord de España 26:49.49 (Ndikumwenayo, 2024) — al récord le faltan 1.49 s"><span class="bar short" style="left:50.00%;width:0.93%"></span></span><span class="v">+1.49 s</span></div>
+<div class="row" title="3.000 m obst.: mínima 8:07.50, récord de España 8:05.69 (Carro, 2019) — el récord la supera por 1.81 s"><span class="n">3.000 m obst.</span><span class="t" role="img" aria-label="3.000 m obst.: mínima 8:07.50, récord de España 8:05.69 (Carro, 2019) — el récord la supera por 1.81 s"><span class="bar beats" style="left:46.29%;width:3.71%"></span></span><span class="v">−1.81 s</span></div>
+<div class="row" title="1.500 m: mínima 3:30.00, récord de España 3:28.76 (Katir, 2021) — el récord la supera por 1.24 s"><span class="n">1.500 m</span><span class="t" role="img" aria-label="1.500 m: mínima 3:30.00, récord de España 3:28.76 (Katir, 2021) — el récord la supera por 1.24 s"><span class="bar beats" style="left:44.10%;width:5.90%"></span></span><span class="v">−1.24 s</span></div>
+<div class="row" title="5.000 m: mínima 12:50.00, récord de España 12:45.01 (Katir, 2023) — el récord la supera por 4.99 s"><span class="n">5.000 m</span><span class="t" role="img" aria-label="5.000 m: mínima 12:50.00, récord de España 12:45.01 (Katir, 2023) — el récord la supera por 4.99 s"><span class="bar beats" style="left:43.52%;width:6.48%"></span></span><span class="v">−4.99 s</span></div>
+<div class="row" title="Altura: mínima 2.32, récord de España 2.34 (Ortiz, 1991) — el récord la supera por 0.02 m"><span class="n">Altura</span><span class="t" role="img" aria-label="Altura: mínima 2.32, récord de España 2.34 (Ortiz, 1991) — el récord la supera por 0.02 m"><span class="bar beats" style="left:41.38%;width:8.62%"></span></span><span class="v">−0.02 m</span></div>
+<div class="row" title="800 m: mínima 1:43.00, récord de España 1:42.04 (Attaoui, 2024) — el récord la supera por 0.96 s"><span class="n">800 m</span><span class="t" role="img" aria-label="800 m: mínima 1:43.00, récord de España 1:42.04 (Attaoui, 2024) — el récord la supera por 0.96 s"><span class="bar beats" style="left:40.68%;width:9.32%"></span></span><span class="v">−0.96 s</span></div>
+<div class="row" title="110 m vallas: mínima 13.18, récord de España 13.04 (Ortega, 2016) — el récord la supera por 0.14 s"><span class="n">110 m vallas</span><span class="t" role="img" aria-label="110 m vallas: mínima 13.18, récord de España 13.04 (Ortega, 2016) — el récord la supera por 0.14 s"><span class="bar beats" style="left:39.38%;width:10.62%"></span></span><span class="v">−0.14 s</span></div>
+<div class="row" title="Martillo: mínima 78.50, récord de España 79.38 (Cienfuegos, 2019) — el récord la supera por 0.88 m"><span class="n">Martillo</span><span class="t" role="img" aria-label="Martillo: mínima 78.50, récord de España 79.38 (Cienfuegos, 2019) — el récord la supera por 0.88 m"><span class="bar beats" style="left:38.79%;width:11.21%"></span></span><span class="v">−0.88 m</span></div>
+<div class="row" title="Longitud: mínima 8.30, récord de España 8.56 (Lamela, 1999) — el récord la supera por 0.26 m"><span class="n">Longitud</span><span class="t" role="img" aria-label="Longitud: mínima 8.30, récord de España 8.56 (Lamela, 1999) — el récord la supera por 0.26 m"><span class="bar beats" style="left:18.67%;width:31.33%"></span></span><span class="v">−0.26 m</span></div>
+<div class="row" title="Disco: mínima 67.20, récord de España 69.50 (Pestano, 2008) — el récord la supera por 2.30 m"><span class="n">Disco</span><span class="t" role="img" aria-label="Disco: mínima 67.20, récord de España 69.50 (Pestano, 2008) — el récord la supera por 2.30 m"><span class="bar beats" style="left:15.77%;width:34.23%"></span></span><span class="v">−2.30 m</span></div>
+<div class="row" title="Triple salto: mínima 17.35, récord de España 18.18 (J. Díaz, 2024) — el récord la supera por 0.83 m"><span class="n">Triple salto</span><span class="t" role="img" aria-label="Triple salto: mínima 17.35, récord de España 18.18 (J. Díaz, 2024) — el récord la supera por 0.83 m"><span class="bar beats" style="left:2.16%;width:47.84%"></span></span><span class="v">−0.83 m</span></div>
+    </div>
+    <div>
+      <div class="i-colhead"><h4>Mujeres</h4><small>10 de 19 sin llegar</small></div>
+      <div class="i-axis"><span></span><span class="mid"><span>◀ la supera</span><span>falta ▶</span></span><span class="val">dif.</span></div>
+      <div class="row" title="Disco: mínima 65.00, récord de España 61.89 (Asenjo, 2016) — al récord le faltan 3.11 m"><span class="n">Disco</span><span class="t" role="img" aria-label="Disco: mínima 65.00, récord de España 61.89 (Asenjo, 2016) — al récord le faltan 3.11 m"><span class="bar short" style="left:50.00%;width:47.85%"></span></span><span class="v">+3.11 m</span></div>
+<div class="row" title="Heptatlón: mínima 6550, récord de España 6304 (M. Vicente, 2021) — al récord le faltan 246 pts"><span class="n">Heptatlón</span><span class="t" role="img" aria-label="Heptatlón: mínima 6550, récord de España 6304 (M. Vicente, 2021) — al récord le faltan 246 pts"><span class="bar short" style="left:50.00%;width:37.56%"></span></span><span class="v">+246 pts</span></div>
+<div class="row" title="Martillo: mínima 74.00, récord de España 72.00 (L. Redondo, 2022) — al récord le faltan 2.00 m"><span class="n">Martillo</span><span class="t" role="img" aria-label="Martillo: mínima 74.00, récord de España 72.00 (L. Redondo, 2022) — al récord le faltan 2.00 m"><span class="bar short" style="left:50.00%;width:27.03%"></span></span><span class="v">+2.00 m</span></div>
+<div class="row" title="Peso: mínima 19.30, récord de España 18.80 (Toimil, 2021) — al récord le faltan 0.50 m"><span class="n">Peso</span><span class="t" role="img" aria-label="Peso: mínima 19.30, récord de España 18.80 (Toimil, 2021) — al récord le faltan 0.50 m"><span class="bar short" style="left:50.00%;width:25.91%"></span></span><span class="v">+0.50 m</span></div>
+<div class="row" title="10.000 m: mínima 30:30.00, récord de España 30:51.69 (M. Domínguez, 2006) — al récord le faltan 21.69 s"><span class="n">10.000 m</span><span class="t" role="img" aria-label="10.000 m: mínima 30:30.00, récord de España 30:51.69 (M. Domínguez, 2006) — al récord le faltan 21.69 s"><span class="bar short" style="left:50.00%;width:11.85%"></span></span><span class="v">+21.69 s</span></div>
+<div class="row" title="100 m: mínima 10.96, récord de España 11.06 (Myers, 1991) — al récord le faltan 0.10 s"><span class="n">100 m</span><span class="t" role="img" aria-label="100 m: mínima 10.96, récord de España 11.06 (Myers, 1991) — al récord le faltan 0.10 s"><span class="bar short" style="left:50.00%;width:9.12%"></span></span><span class="v">+0.10 s</span></div>
+<div class="row" title="400 m vallas: mínima 54.00, récord de España 54.34 (S. Gallego, 2022) — al récord le faltan 0.34 s"><span class="n">400 m vallas</span><span class="t" role="img" aria-label="400 m vallas: mínima 54.00, récord de España 54.34 (S. Gallego, 2022) — al récord le faltan 0.34 s"><span class="bar short" style="left:50.00%;width:6.30%"></span></span><span class="v">+0.34 s</span></div>
+<div class="row" title="800 m: mínima 1:57.00, récord de España 1:57.45 (Zúñiga, 1988) — al récord le faltan 0.45 s"><span class="n">800 m</span><span class="t" role="img" aria-label="800 m: mínima 1:57.00, récord de España 1:57.45 (Zúñiga, 1988) — al récord le faltan 0.45 s"><span class="bar short" style="left:50.00%;width:3.85%"></span></span><span class="v">+0.45 s</span></div>
+<div class="row" title="3.000 m obst.: mínima 9:06.00, récord de España 9:07.32 (M. Domínguez, 2009) — al récord le faltan 1.32 s"><span class="n">3.000 m obst.</span><span class="t" role="img" aria-label="3.000 m obst.: mínima 9:06.00, récord de España 9:07.32 (M. Domínguez, 2009) — al récord le faltan 1.32 s"><span class="bar short" style="left:50.00%;width:2.42%"></span></span><span class="v">+1.32 s</span></div>
+<div class="row" title="1.500 m: mínima 3:57.50, récord de España 3:57.75 (M. Pérez, 2024) — al récord le faltan 0.25 s"><span class="n">1.500 m</span><span class="t" role="img" aria-label="1.500 m: mínima 3:57.50, récord de España 3:57.75 (M. Pérez, 2024) — al récord le faltan 0.25 s"><span class="bar short" style="left:50.00%;width:1.05%"></span></span><span class="v">+0.25 s</span></div>
+<div class="row" title="5.000 m: mínima 14:34.00, récord de España 14:33.40 (M. García, 2025) — el récord la supera por 0.60 s"><span class="n">5.000 m</span><span class="t" role="img" aria-label="5.000 m: mínima 14:34.00, récord de España 14:33.40 (M. García, 2025) — el récord la supera por 0.60 s"><span class="bar beats" style="left:49.31%;width:0.69%"></span></span><span class="v">−0.60 s</span></div>
+<div class="row" title="200 m: mínima 22.25, récord de España 22.19 (Bestué, 2025) — el récord la supera por 0.06 s"><span class="n">200 m</span><span class="t" role="img" aria-label="200 m: mínima 22.25, récord de España 22.19 (Bestué, 2025) — el récord la supera por 0.06 s"><span class="bar beats" style="left:47.30%;width:2.70%"></span></span><span class="v">−0.06 s</span></div>
+<div class="row" title="Jabalina: mínima 63.80, récord de España 64.07 (Chilla, 2010) — el récord la supera por 0.27 m"><span class="n">Jabalina</span><span class="t" role="img" aria-label="Jabalina: mínima 63.80, récord de España 64.07 (Chilla, 2010) — el récord la supera por 0.27 m"><span class="bar beats" style="left:45.77%;width:4.23%"></span></span><span class="v">−0.27 m</span></div>
+<div class="row" title="400 m: mínima 49.90, récord de España 49.67 (Myers, 1991) — el récord la supera por 0.23 s"><span class="n">400 m</span><span class="t" role="img" aria-label="400 m: mínima 49.90, récord de España 49.67 (Myers, 1991) — el récord la supera por 0.23 s"><span class="bar beats" style="left:45.39%;width:4.61%"></span></span><span class="v">−0.23 s</span></div>
+<div class="row" title="Maratón: mínima 2:22:20, récord de España 2:21:27 (Maayouf, 2023) — el récord la supera por 53 s"><span class="n">Maratón</span><span class="t" role="img" aria-label="Maratón: mínima 2:22:20, récord de España 2:21:27 (Maayouf, 2023) — el récord la supera por 53 s"><span class="bar beats" style="left:43.79%;width:6.21%"></span></span><span class="v">−53 s</span></div>
+<div class="row" title="100 m vallas: mínima 12.58, récord de España 12.50 (Onyia, 2008) — el récord la supera por 0.08 s"><span class="n">100 m vallas</span><span class="t" role="img" aria-label="100 m vallas: mínima 12.58, récord de España 12.50 (Onyia, 2008) — el récord la supera por 0.08 s"><span class="bar beats" style="left:43.64%;width:6.36%"></span></span><span class="v">−0.08 s</span></div>
+<div class="row" title="Longitud: mínima 6.90, récord de España 7.06 (Montalvo, 1999) — el récord la supera por 0.16 m"><span class="n">Longitud</span><span class="t" role="img" aria-label="Longitud: mínima 6.90, récord de España 7.06 (Montalvo, 1999) — el récord la supera por 0.16 m"><span class="bar beats" style="left:26.81%;width:23.19%"></span></span><span class="v">−0.16 m</span></div>
+<div class="row" title="Altura: mínima 1.97, récord de España 2.02 (Beitia, 2007) — el récord la supera por 0.05 m"><span class="n">Altura</span><span class="t" role="img" aria-label="Altura: mínima 1.97, récord de España 2.02 (Beitia, 2007) — el récord la supera por 0.05 m"><span class="bar beats" style="left:24.62%;width:25.38%"></span></span><span class="v">−0.05 m</span></div>
+<div class="row" title="Triple salto: mínima 14.50, récord de España 14.87 (Peleteiro, 2021) — el récord la supera por 0.37 m"><span class="n">Triple salto</span><span class="t" role="img" aria-label="Triple salto: mínima 14.50, récord de España 14.87 (Peleteiro, 2021) — el récord la supera por 0.37 m"><span class="bar beats" style="left:24.48%;width:25.52%"></span></span><span class="v">−0.37 m</span></div>
+    </div>
+  </div>
+  <div class="i-leg"><span><i class="s"></i>El récord de España no llega a la mínima</span><span><i class="b"></i>El récord ya supera la mínima</span><span>Escala: ±5 % respecto a la mínima</span></div>
+  <div class="i-foot"><b>Cómo leerlo:</b> «dif.» es lo que le falta al récord para igualar la mínima (+) o lo que la supera (−). Ordenado de mayor a menor distancia. Pértiga femenina fuera de la comparación (fuentes sin acuerdo). Marchas sin mínima publicada.<br><b>Fuentes:</b> World Athletics (vía Athletics Illustrated, Jamaica Observer, CADA) · RFEA, récords absolutos aire libre (a 25-10-2026). Jabalina y heptatlón femeninos: marcas pendientes de homologación no incluidas.</div>
+</div>
+    <p class="cap">Infografía: DIDNOTFINISH, con datos de World Athletics y la RFEA.</p>
+    <div class="actions"><a class="btn" href="../assets/infografia-minimas-la28.png" download>Descargar infografía (PNG, 1080×1350)</a></div>
+  </div>
+
+  <div class="narrow body">
+    <h2>Qué ha cambiado respecto a París</h2>
+    <p>Las marcas de entrada bajan en todas las carreras: el maratón masculino pasa de 2:08:10 a 2:05:00 y el femenino, de 2:26:50 a 2:22:20; en 1.500 m, de 3:33.50 a 3:30.00 (hombres) y de 4:02.50 a 3:57.50 (mujeres). En los concursos el movimiento es menor y desigual: suben pértiga, longitud, triple masculino, martillo masculino, peso y disco femeninos, decatlón y heptatlón; se mantienen peso, disco y jabalina masculinos, altura femenina y martillo femenino, y tres marcas se relajan ligeramente (altura masculina, triple femenino y jabalina femenina).</p>
+    <p>El sistema también cambia. Alrededor del 40 % de los atletas entrará por marca y el 60 % por ranking mundial, frente al 50/50 de París. Si en una prueba más atletas alcanzan la mínima que plazas hay, entran los de mejores marcas del periodo y ya no hay plazas por ranking.</p>
+
+    <h2>Dónde está la distancia</h2>
+    <p>Entre los hombres, el récord no llega en 10 de 20 pruebas. Las más ajustadas son 200 m (+0.09 s), 10.000 m (+1.49 s), 400 m vallas (+0.11 s), peso (+0.03 m); el maratón queda a 48 s (2:05:48 de Tariku Novales frente a 2:05:00) y el decatlón a 116 pts. Los 100 m, con 10.06 de Hortelano frente a 9.93, siguen siendo una de las brechas más grandes del lado masculino.</p>
+    <p>Entre las mujeres, el récord no llega en 10 de 19 pruebas. En el medio fondo y el obstáculos se quedan a décimas o a poco más de un segundo (800 m (+0.45 s), 1.500 m (+0.25 s), 3.000 m obst. (+1.32 s)), pero en los lanzamientos y las combinadas la distancia es otra: disco (3.11 m, con 61.89 frente a 65.00) y heptatlón (246 pts, con 6.304 frente a 6.550) son las brechas más grandes de toda la comparación.</p>
+    <p class="dim">En porcentaje sobre la mínima, la prueba más lejana es el disco femenino (4.8 %) y la más cercana, los 10.000 m masculinos (0.09 %: 26:49.49 de Thierry Ndikumwenayo frente a 26:48.00).</p>
+
+    <h2>Lo que esta comparación no dice</h2>
+    <ul>
+      <li><strong>Un récord que supera la mínima no es un atleta que la tenga.</strong> De los 19 récords que ya superan la marca exigida, 8 se establecieron entre 1991 y 2010 (Ortiz en altura, Lamela en longitud, Beitia, Montalvo, Myers, Onyia, Chilla, Pestano…). Que el récord la supere no significa que los atletas actuales estén cerca.</li>
+      <li><strong>Ninguna marca de hoy cuenta todavía.</strong> Las ventanas de clasificación son: maratón, 1 de noviembre de 2026 al 30 de abril de 2028; 10.000 m, combinadas, marchas y relevos, 19 de diciembre de 2026 al 18 de junio de 2028; resto de pruebas, 19 de junio de 2027 al 18 de junio de 2028.</li>
+      <li><strong>Alcanzar la mínima no garantiza plaza</strong>, y el 60 % de las plazas se reparte por ranking, donde la regularidad pesa tanto como una sola marca.</li>
+    </ul>
+
+    <h3 class="tt">Hombres</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Prueba</th><th>Mínima LA28</th><th>París 2024 (cambio)</th><th>Récord de España</th><th>Autor/a, año</th><th>Falta (+) / sobra (−)</th><th>Estado</th></tr></thead>
+<tbody><tr><td>100 m</td><td>9.93</td><td class="dim">10.00 <small>(−0.07 s)</small></td><td>10.06</td><td class="dim">Hortelano, 2016</td><td>+0.13 s</td><td><span class="record-badge">No llega</span></td></tr><tr><td>200 m</td><td>19.95</td><td class="dim">20.16 <small>(−0.21 s)</small></td><td>20.04</td><td class="dim">Hortelano, 2018</td><td>+0.09 s</td><td><span class="record-badge">No llega</span></td></tr><tr><td>400 m</td><td>44.40</td><td class="dim">45.00 <small>(−0.60 s)</small></td><td>44.69</td><td class="dim">Hortelano, 2018</td><td>+0.29 s</td><td><span class="record-badge">No llega</span></td></tr><tr><td>800 m</td><td>1:43.00</td><td class="dim">1:44.70 <small>(−1.70 s)</small></td><td>1:42.04</td><td class="dim">Attaoui, 2024</td><td>−0.96 s</td><td><span class="ok">La supera</span></td></tr><tr><td>1.500 m</td><td>3:30.00</td><td class="dim">3:33.50 <small>(−3.50 s)</small></td><td>3:28.76</td><td class="dim">Katir, 2021</td><td>−1.24 s</td><td><span class="ok">La supera</span></td></tr><tr><td>5.000 m</td><td>12:50.00</td><td class="dim">13:05.00 <small>(−15 s)</small></td><td>12:45.01</td><td class="dim">Katir, 2023</td><td>−4.99 s</td><td><span class="ok">La supera</span></td></tr><tr><td>10.000 m</td><td>26:48.00</td><td class="dim">27:00.00 <small>(−12 s)</small></td><td>26:49.49</td><td class="dim">Ndikumwenayo, 2024</td><td>+1.49 s</td><td><span class="record-badge">No llega</span></td></tr><tr><td>Maratón</td><td>2:05:00</td><td class="dim">2:08:10 <small>(−3:10)</small></td><td>2:05:48</td><td class="dim">Novales, 2023</td><td>+48 s</td><td><span class="record-badge">No llega</span></td></tr><tr><td>110 m vallas</td><td>13.18</td><td class="dim">13.27 <small>(−0.09 s)</small></td><td>13.04</td><td class="dim">Ortega, 2016</td><td>−0.14 s</td><td><span class="ok">La supera</span></td></tr><tr><td>400 m vallas</td><td>48.00</td><td class="dim">48.70 <small>(−0.70 s)</small></td><td>48.11</td><td class="dim">J. D. Delgado, 2026</td><td>+0.11 s</td><td><span class="record-badge">No llega</span></td></tr><tr><td>3.000 m obst.</td><td>8:07.50</td><td class="dim">8:15.00 <small>(−7.50 s)</small></td><td>8:05.69</td><td class="dim">Carro, 2019</td><td>−1.81 s</td><td><span class="ok">La supera</span></td></tr><tr><td>Altura</td><td>2.32</td><td class="dim">2.33 <small>(−0.01 m)</small></td><td>2.34</td><td class="dim">Ortiz, 1991</td><td>−0.02 m</td><td><span class="ok">La supera</span></td></tr><tr><td>Pértiga</td><td>5.90</td><td class="dim">5.82 <small>(+0.08 m)</small></td><td>5.81</td><td class="dim">Miranda, 2000</td><td>+0.09 m</td><td><span class="record-badge">No llega</span></td></tr><tr><td>Longitud</td><td>8.30</td><td class="dim">8.27 <small>(+0.03 m)</small></td><td>8.56</td><td class="dim">Lamela, 1999</td><td>−0.26 m</td><td><span class="ok">La supera</span></td></tr><tr><td>Triple salto</td><td>17.35</td><td class="dim">17.22 <small>(+0.13 m)</small></td><td>18.18</td><td class="dim">J. Díaz, 2024</td><td>−0.83 m</td><td><span class="ok">La supera</span></td></tr><tr><td>Peso</td><td>21.50</td><td class="dim">21.50 <small>(0.00 m)</small></td><td>21.47</td><td class="dim">M. Martínez, 2002</td><td>+0.03 m</td><td><span class="record-badge">No llega</span></td></tr><tr><td>Disco</td><td>67.20</td><td class="dim">67.20 <small>(0.00 m)</small></td><td>69.50</td><td class="dim">Pestano, 2008</td><td>−2.30 m</td><td><span class="ok">La supera</span></td></tr><tr><td>Martillo</td><td>78.50</td><td class="dim">78.20 <small>(+0.30 m)</small></td><td>79.38</td><td class="dim">Cienfuegos, 2019</td><td>−0.88 m</td><td><span class="ok">La supera</span></td></tr><tr><td>Jabalina</td><td>85.50</td><td class="dim">85.50 <small>(0.00 m)</small></td><td>84.80</td><td class="dim">Jainaga, 2021</td><td>+0.70 m</td><td><span class="record-badge">No llega</span></td></tr><tr><td>Decatlón</td><td>8650</td><td class="dim">8460 <small>(+190 pts)</small></td><td>8534</td><td class="dim">Peñalver, 1994</td><td>+116 pts</td><td><span class="record-badge">No llega</span></td></tr></tbody></table></div>
+    <h3 class="tt">Mujeres</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Prueba</th><th>Mínima LA28</th><th>París 2024 (cambio)</th><th>Récord de España</th><th>Autor/a, año</th><th>Falta (+) / sobra (−)</th><th>Estado</th></tr></thead>
+<tbody><tr><td>100 m</td><td>10.96</td><td class="dim">11.07 <small>(−0.11 s)</small></td><td>11.06</td><td class="dim">Myers, 1991</td><td>+0.10 s</td><td><span class="record-badge">No llega</span></td></tr><tr><td>200 m</td><td>22.25</td><td class="dim">22.57 <small>(−0.32 s)</small></td><td>22.19</td><td class="dim">Bestué, 2025</td><td>−0.06 s</td><td><span class="ok">La supera</span></td></tr><tr><td>400 m</td><td>49.90</td><td class="dim">50.95 <small>(−1.05 s)</small></td><td>49.67</td><td class="dim">Myers, 1991</td><td>−0.23 s</td><td><span class="ok">La supera</span></td></tr><tr><td>800 m</td><td>1:57.00</td><td class="dim">1:59.30 <small>(−2.30 s)</small></td><td>1:57.45</td><td class="dim">Zúñiga, 1988</td><td>+0.45 s</td><td><span class="record-badge">No llega</span></td></tr><tr><td>1.500 m</td><td>3:57.50</td><td class="dim">4:02.50 <small>(−5 s)</small></td><td>3:57.75</td><td class="dim">M. Pérez, 2024</td><td>+0.25 s</td><td><span class="record-badge">No llega</span></td></tr><tr><td>5.000 m</td><td>14:34.00</td><td class="dim">14:52.00 <small>(−18 s)</small></td><td>14:33.40</td><td class="dim">M. García, 2025</td><td>−0.60 s</td><td><span class="ok">La supera</span></td></tr><tr><td>10.000 m</td><td>30:30.00</td><td class="dim">30:40.00 <small>(−10 s)</small></td><td>30:51.69</td><td class="dim">M. Domínguez, 2006</td><td>+21.69 s</td><td><span class="record-badge">No llega</span></td></tr><tr><td>Maratón</td><td>2:22:20</td><td class="dim">2:26:50 <small>(−4:30)</small></td><td>2:21:27</td><td class="dim">Maayouf, 2023</td><td>−53 s</td><td><span class="ok">La supera</span></td></tr><tr><td>100 m vallas</td><td>12.58</td><td class="dim">12.77 <small>(−0.19 s)</small></td><td>12.50</td><td class="dim">Onyia, 2008</td><td>−0.08 s</td><td><span class="ok">La supera</span></td></tr><tr><td>400 m vallas</td><td>54.00</td><td class="dim">54.85 <small>(−0.85 s)</small></td><td>54.34</td><td class="dim">S. Gallego, 2022</td><td>+0.34 s</td><td><span class="record-badge">No llega</span></td></tr><tr><td>3.000 m obst.</td><td>9:06.00</td><td class="dim">9:23.00 <small>(−17 s)</small></td><td>9:07.32</td><td class="dim">M. Domínguez, 2009</td><td>+1.32 s</td><td><span class="record-badge">No llega</span></td></tr><tr><td>Altura</td><td>1.97</td><td class="dim">1.97 <small>(0.00 m)</small></td><td>2.02</td><td class="dim">Beitia, 2007</td><td>−0.05 m</td><td><span class="ok">La supera</span></td></tr><tr><td>Longitud</td><td>6.90</td><td class="dim">6.86 <small>(+0.04 m)</small></td><td>7.06</td><td class="dim">Montalvo, 1999</td><td>−0.16 m</td><td><span class="ok">La supera</span></td></tr><tr><td>Triple salto</td><td>14.50</td><td class="dim">14.55 <small>(−0.05 m)</small></td><td>14.87</td><td class="dim">Peleteiro, 2021</td><td>−0.37 m</td><td><span class="ok">La supera</span></td></tr><tr><td>Peso</td><td>19.30</td><td class="dim">18.80 <small>(+0.50 m)</small></td><td>18.80</td><td class="dim">Toimil, 2021</td><td>+0.50 m</td><td><span class="record-badge">No llega</span></td></tr><tr><td>Disco</td><td>65.00</td><td class="dim">64.50 <small>(+0.50 m)</small></td><td>61.89</td><td class="dim">Asenjo, 2016</td><td>+3.11 m</td><td><span class="record-badge">No llega</span></td></tr><tr><td>Martillo</td><td>74.00</td><td class="dim">74.00 <small>(0.00 m)</small></td><td>72.00</td><td class="dim">L. Redondo, 2022</td><td>+2.00 m</td><td><span class="record-badge">No llega</span></td></tr><tr><td>Jabalina</td><td>63.80</td><td class="dim">64.00 <small>(−0.20 m)</small></td><td>64.07</td><td class="dim">Chilla, 2010</td><td>−0.27 m</td><td><span class="ok">La supera</span></td></tr><tr><td>Heptatlón</td><td>6550</td><td class="dim">6480 <small>(+70 pts)</small></td><td>6304</td><td class="dim">M. Vicente, 2021</td><td>+246 pts</td><td><span class="record-badge">No llega</span></td></tr></tbody></table></div>
+    <p class="note">«Falta (+)»: lo que le falta al récord para igualar la mínima; «sobra (−)»: lo que la supera. El cambio respecto a París 2024 va entre paréntesis (− = mínima más exigente en carreras; en concursos, + = mínima más exigente).</p>
+
+    <h2>Notas sobre los datos</h2>
+    <ul>
+      <li>Récords de España absolutos al aire libre según la RFEA y su ficha actualizada a 25 de octubre de 2026. Los de hombres los he contrastado con una compilación secundaria, no con la página oficial de la RFEA.</li>
+      <li>Pértiga femenina excluida: las fuentes consultadas no coinciden en cuál es el récord al aire libre.</li>
+      <li>La RFEA lista dos marcas femeninas recientes pendientes de homologación (jabalina 65.39 y heptatlón 6.372); se usan las ratificadas (64.07 y 6.304). En el heptatlón la conclusión no cambia: 6.372 sigue lejos de 6.550.</li>
+      <li>En 3.000 m obstáculos femeninos se usa 9:07.32 (Marta Domínguez, Berlín 2009).</li>
+      <li>Las marchas no tienen mínima publicada en las fuentes consultadas (hay una prueba de media maratón de marcha por determinar) y quedan fuera.</li>
+    </ul>
+
+    <div class="sources">
+      <strong style="color:var(--ink)">Fuentes</strong>
+      <ul>
+        <li><a href="https://athleticsillustrated.com/la-28-qualification-standards-are-out-and-they-are-more-difficult/">Athletics Illustrated — LA 28 qualification standards are out</a></li>
+        <li><a href="https://www.jamaicaobserver.com/2026/11/10/world-athletics-raises-bar-la28-new-olympic-qualifying-standards-unveiled/">Jamaica Observer — World Athletics raises the bar for LA28</a></li>
+        <li><a href="https://cada-atletismo.org/world-athletics-anuncia-el-sistema-de-clasificacion-para-los-angeles-2028/">CADA — World Athletics anuncia el sistema de clasificación para Los Ángeles 2028</a></li>
+        <li><a href="https://www.labolsadelcorredor.com/las-durisimas-minimas-de-world-athletics-para-los-juegos-olimpicos-de-los-angeles-2028/">La Bolsa del Corredor — Las durísimas mínimas de World Athletics</a></li>
+        <li><a href="https://www.rfeacontent.es/records/recordsESP_ABS_mujeres.htm">RFEA — Récords de España absolutos, mujeres</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/List_of_Spanish_records_in_athletics">Wikipedia — List of Spanish records in athletics</a></li>
+      </ul>
+    </div>
+  </div>
+</article>
+</main>
+<div class="lane-rule"></div>
+<footer><div class="wrap"><div class="foot-bottom">© <span id="year"></span> DIDNOTFINISH. <a href="../index.html">Volver a la portada</a></div></div></footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
