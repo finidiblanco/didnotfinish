@@ -354,15 +354,6 @@ export const GENERAL_NEWS = [
       "after": [
         "<a href=\"/images/infografia-minimas-la28.png\" target=\"_blank\" rel=\"noopener\">Abrir la infografía a tamaño completo (PNG, 1080×1350)</a>"
       ]
-    },
-    {
-      "heading": "Notas sobre los datos",
-      "list": [
-        "Pértiga femenina excluida: las fuentes consultadas no coinciden en cuál es el récord al aire libre. Las marchas no tienen mínima publicada en las fuentes consultadas y quedan fuera.",
-        "La RFEA lista dos marcas femeninas recientes pendientes de homologación (jabalina 65.39 y heptatlón 6.372); se usan las ratificadas (64.07 y 6.304). En el heptatlón la conclusión no cambia: 6.372 sigue lejos de 6.550.",
-        "En los 3.000 m obstáculos femeninos se usa 9:07.32 (Marta Domínguez, Berlín 2009).",
-        "Fuentes: <a href=\"https://athleticsillustrated.com/la-28-qualification-standards-are-out-and-they-are-more-difficult/\" target=\"_blank\" rel=\"noopener\">Athletics Illustrated</a>, <a href=\"https://www.jamaicaobserver.com/2026/11/10/world-athletics-raises-bar-la28-new-olympic-qualifying-standards-unveiled/\" target=\"_blank\" rel=\"noopener\">Jamaica Observer</a>, <a href=\"https://cada-atletismo.org/world-athletics-anuncia-el-sistema-de-clasificacion-para-los-angeles-2028/\" target=\"_blank\" rel=\"noopener\">CADA</a>, <a href=\"https://www.rfeacontent.es/records/recordsESP_ABS_mujeres.htm\" target=\"_blank\" rel=\"noopener\">RFEA (récords femeninos)</a> y <a href=\"https://en.wikipedia.org/wiki/List_of_Spanish_records_in_athletics\" target=\"_blank\" rel=\"noopener\">Wikipedia (récords de España)</a>."
-      ]
     }
   ]
 },
