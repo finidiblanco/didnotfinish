@@ -14,6 +14,39 @@
 // ---------------------------------------------------------------
 export const GENERAL_NEWS = [
   {
+    slug: "previa-cross-soria-2026",
+    date: "13 nov 2026",
+    tag: "Cross",
+    title: "Cross de Soria 2026: Kwizera va a por la cuarta y Charity Cherop llega de Itálica como favorita",
+    subtitle: "Valonsadero acoge este domingo la 32ª edición de un cross que reúne ya a 40 nacionalidades en su historia",
+    body: "Una semana después del Cross de Itálica, el circuito mundial de campo a través viaja hacia el norte. Este domingo 15 de noviembre, el monte Valonsadero de Soria acoge el Campo a Través Internacional, una cita que llega a su edición número 32 y que vuelve a lucir la etiqueta Gold del World Athletics Cross Country Tour, la máxima categoría del circuito. Será la decimocuarta vez en su historia que la prueba soriana la consigue.",
+    sections: [
+      {
+        paragraphs: [
+          "La organización de la Delegación Soriana de Atletismo cuenta con unos 1.000 atletas inscritos y un presupuesto de 82.000 euros, algo superior al del año pasado. La jornada arranca a las 10:15 con las categorías de base. Los platos fuertes llegan por la tarde: la carrera senior femenina sale a las 13:10 y la masculina a las 14:00, en lugar de las 13:50 previstas inicialmente. La masculina se podrá ver en directo en Teledeporte y RTVE Play, y la femenina se emitirá después en diferido. Además, la prueba sirve de puesta a punto para varios de los participantes antes del Campeonato de Europa de cross de Belgrado, en diciembre."
+        ]
+      },
+      {
+        heading: "Los favoritos masculinos",
+        paragraphs: [
+          "El gran nombre de la prueba masculina es Rodrigue Kwizera. El español de origen burundés, del Playas de Castellón, ha ganado en Soria en 2021, 2023 y 2024, y busca la cuarta victoria, algo que ningún atleta ha conseguido nunca en Valonsadero. Con tres triunfos ya iguala a Timothy Toroitich, el otro gran referente de la historia reciente del cross soriano.",
+          "El año pasado, Kwizera se quedó a las puertas de ese hito. Quien se lo impidió fue el keniano Matthew Kipchumba Kipsang, que vuelve a la línea de salida y se reencuentra con él. El duelo es el principal atractivo de la carrera, y se espera que otros atletas intenten sacar partido de él, entre ellos el keniano Charles Kibono y el etíope Adisu Wegene.",
+          "La representación española es amplia. Estarán Víctor Ruiz, Vicente Viciosa, Estanislao Nicolás Ruiz, Pablo Sánchez y el soriano Eleazar Cantón, que quiere hacerse un hueco en casa. Para medirse con ellos antes del Europeo llegan el sueco Oliver Löfqvist y el checo Adan Cervinka. Este último es el primer atleta de la República Checa que compite en Valonsadero, lo que convierte a su país en la nacionalidad número 40 en pasar por el cross de Soria.",
+          "Hay además una ausencia que marca la edición: por primera vez desde 1997 no estarán en la salida ni Daniel Mateo ni Marta Pérez, dos referentes de la prueba. El relevo local lo recogen jóvenes como el propio Eleazar Cantón, Hugo de Miguel o Miguel de la Torre."
+        ]
+      },
+      {
+        heading: "Las favoritas femeninas",
+        paragraphs: [
+          "En categoría femenina, la gran novedad es la ugandesa Charity Cherop. Llega de ser segunda en Itálica y con un palmarés de peso: campeona del mundo sub-20 de 5.000 metros este mismo año y subcampeona del mundo de 5.000 metros en 2024. Será la favorita en el papel.",
+          "Frente a ella, la keniana Mirriam Cherop, la ecuatoriana Katherine Tisalema y la portuguesa Vanessa Carvalho, que se suman a otras atletas anunciadas durante la semana, como la también portuguesa Mariana Machado. Machado es la última ganadora no africana en Soria, un título que consiguió en 2019 y que le da un valor especial a su presencia.",
+          "La imagen del cartel de este año es la etíope Likina Amebaw, ganadora de la edición anterior y campeona del mundo de 5.000 metros en ruta. Sin embargo, no figura en el listado de atletas confirmados que se ha dado a conocer hasta ahora.",
+          "Entre las españolas ha habido bajas de última hora: se caen María José Pérez y Rocío Garrido, y se incorpora Lidia Campo."
+        ]
+      }
+    ]
+  },
+  {
   "slug": "minimas-olimpicas-la28-records-espana",
   "date": "12 nov 2026",
   "tag": "Mínimas olímpicas",
