@@ -631,7 +631,8 @@ list.innerHTML=GALERIA.map(g=>{
     action=`<a class="gbtn${priv?' private':''}" href="${esc(g.albumUrl)}" target="_blank" rel="noopener noreferrer">${priv?ICON.lock:ICON.open}${priv?'Acceder al álbum':'Ver álbum'}</a>`
       +(priv?'<p class="gnote">Álbum privado: solo accede quien tiene el enlace.</p>':'');
   } else {
-    action=`<span class="gsoon">${future?'Álbum tras la prueba':'Álbum en preparación'}</span>`;
+    action=`<span class="gsoon">${priv?'Álbum privado · '+(future?'tras la prueba':'en preparación'):(future?'Álbum tras la prueba':'Álbum en preparación')}</span>`
+      +(priv?'<p class="gnote">Solo accede quien tenga el enlace.</p>':'');
   }
   return `<li class="gcard${g.andaluz?' andaluz':''}">
     <div class="gstripe"></div>
