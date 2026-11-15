@@ -624,7 +624,7 @@ list.innerHTML=GALERIA.map(g=>{
   const priv=g.acceso==='privado';
   const future=d>today;
   const thumb=g.thumb
-    ? `<span class="gthumb"><img src="${esc(g.thumb)}" alt="Foto de ${esc(g.name)}" loading="lazy"></span>`
+    ? `<span class="gthumb"><img src="${esc(g.thumb)}" alt="Foto de ${esc(g.name)}" loading="lazy"${g.thumbPos?` style="object-position:${esc(g.thumbPos)}"`:''}></span>`
     : `<span class="gthumb empty">${ICON.cam}<span>Foto próximamente</span></span>`;
   let action;
   if(g.albumUrl){
