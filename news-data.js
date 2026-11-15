@@ -18,8 +18,8 @@ export const GENERAL_NEWS = [
     "date": "15 nov 2026",
     "tag": "Cross",
     "title": "Kipchumba gana a Kwizera por centímetros y Cherop manda en Soria",
-    "subtitle": "Misma marca, 23:49, para los dos primeros en Valonsadero; Charity Cherop se escapa en solitario y Idaira Prieto es la mejor española",
-    "body": "<strong>Soria, 15 de noviembre de 2026.</strong> El XXXII Campo a Través Internacional de Soria se decidió bajo frío, lluvia y viento en el monte Valonsadero. En la carrera masculina, el keniano <strong>Matthew Kipchumba</strong> revalidó su victoria de 2025 con 23:49, el mismo tiempo que <strong>Rodrigue Kwizera</strong>, segundo por centímetros y mejor español. En la femenina, la ugandesa <strong>Charity Cherop</strong> dominó de principio a fin con 26:19, y <strong>Idaira Prieto</strong> fue la primera española.",
+    "subtitle": "Misma marca, 23:49, para los dos primeros en Valonsadero; Charity Cherop se escapa en solitario e Idaira Prieto es la mejor española",
+    "body": "<strong>Soria, 15 de noviembre de 2026.</strong> El XXXII Campo a Través Internacional de Soria se decidió bajo frío, lluvia y viento en el monte Valonsadero. En la carrera masculina, el keniano <strong>Matthew Kipchumba</strong> revalidó su victoria de 2025 con 23:49, el mismo tiempo que <strong>Rodrigue Kwizera</strong>, segundo por centímetros y mejor español. En la femenina, la ugandesa <strong>Charity Cherop</strong> dominó de principio a fin con 26:19, e <strong>Idaira Prieto</strong> fue la primera española.",
     "sections": [
       {
         "heading": "Carrera masculina: un sprint de centímetros en el último repecho",
