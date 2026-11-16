@@ -252,6 +252,16 @@
   .race h3{font-family:var(--display); font-weight:600; text-transform:uppercase; font-size:clamp(18px,2vw,23px); line-height:1.15; letter-spacing:0.01em;}
   .race .place{font-size:14px; opacity:0.7; margin-top:4px; display:flex; align-items:center; gap:6px;}
   .race .place svg{width:13px; height:13px; flex-shrink:0;}
+  .race-form{
+    display:inline-flex; align-items:center; gap:7px; margin-top:12px;
+    font-family:var(--mono); font-size:11px; letter-spacing:0.08em; text-transform:uppercase;
+    color:var(--ink); border:1px solid currentColor; padding:6px 11px; border-radius:2px;
+    transition:background .15s, color .15s;
+  }
+  .race-form svg{width:13px; height:13px; flex-shrink:0;}
+  .race-form:hover, .race-form:focus-visible{background:var(--ink); color:var(--chalk);}
+  .race.next .race-form{color:var(--lime);}
+  .race.next .race-form:hover, .race.next .race-form:focus-visible{background:var(--lime); color:var(--ink);}
   .race-count{text-align:right; font-family:var(--mono); white-space:nowrap;}
   .race-count .n{display:block; font-size:24px; font-weight:600; font-variant-numeric:tabular-nums;}
   .race-count .l{display:block; font-size:10.5px; letter-spacing:0.1em; text-transform:uppercase; opacity:0.55;}
@@ -1670,6 +1680,7 @@
             <span class="race-kind andaluz">Atletismo andaluz</span>
             <h3>Cto. Andalucía Clubes Sub-20</h3>
             <span class="place"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Antequera, Málaga</span>
+            <a class="race-form" href="https://docs.google.com/forms/d/e/1FAIpQLSfNacIXne_0RrI8MHyIILosWr3KkLppo8m6QFqm35qHcmZL2w/viewform?usp=header" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>Solicitar seguimiento fotográfico</a>
           </div>
           <div class="race-count"><span class="n">—</span><span class="l">días</span></div>
         </li>
@@ -1689,6 +1700,7 @@
             <span class="race-kind andaluz">Atletismo andaluz</span>
             <h3>Cto. Andalucía Clubes Abs. 1ª Div.</h3>
             <span class="place"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Antequera, Málaga</span>
+            <a class="race-form" href="https://docs.google.com/forms/d/e/1FAIpQLSel7DCqJ7jR0WQOXi3X78KyUG2syrMtSH43JixnBUgbQKxZug/viewform?usp=header" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>Solicitar seguimiento fotográfico</a>
           </div>
           <div class="race-count"><span class="n">—</span><span class="l">días</span></div>
         </li>
@@ -1699,6 +1711,7 @@
             <span class="race-kind andaluz">Atletismo andaluz</span>
             <h3>Cto. Andalucía Clubes Abs. 2ª Div.</h3>
             <span class="place"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Antequera, Málaga</span>
+            <a class="race-form" href="https://docs.google.com/forms/d/e/1FAIpQLSel7DCqJ7jR0WQOXi3X78KyUG2syrMtSH43JixnBUgbQKxZug/viewform?usp=header" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>Solicitar seguimiento fotográfico</a>
           </div>
           <div class="race-count"><span class="n">—</span><span class="l">días</span></div>
         </li>
