@@ -14,6 +14,87 @@
 // ---------------------------------------------------------------
 export const GENERAL_NEWS = [
   {
+    "slug": "previa-cross-atapuerca-2026-campeonato-espana-clubes",
+    "date": "18 nov 2026",
+    "tag": "Cross",
+    "title": "Cross de Atapuerca · Campeonato de España de Cross por Clubes",
+    "subtitle": "La cita de Atapuerca reunirá a la élite del campo a través español",
+    "body": "El XXII Cross Internacional de Atapuerca, que acoge este domingo 22 de noviembre el LXI Campeonato de España de Campo a Través por Clubes, reunirá en Burgos a más de 2.300 inscritos para el campeonato nacional y cerca de 3.200 en el conjunto de la jornada.",
+    "sections": [
+      {
+        "heading": "Favoritos y clubes a seguir en Atapuerca",
+        "paragraphs": [
+          "En el Campeonato de España de Campo a Través por Clubes de Atapuerca, los grandes favoritos individuales son Rodrigue Kwizera en hombres y, en mujeres, un bloque encabezado por Majida Maayouf, Idaira Prieto y Carolina Robles. Por equipos, Facsa-Playas de Castellón, ADA Calvi-Vistasol, Bilbao Atletismo y Vicky Foods Athletics parten como referencias, mientras que Trops-Cueva de Nerja es el club andaluz con mejor cartelería."
+        ]
+      },
+      {
+        "heading": "Hombres: Kwizera, el hombre a batir",
+        "paragraphs": [
+          "Rodrigue Kwizera, inscrito con Facsa-Playas de Castellón, llega como el gran favorito tras ganar el Cross Internacional de Itálica con 27:37 y ser segundo en Soria, empatado en 23:49 con el vencedor Matthew Kipchumba. Su regularidad en las dos últimas citas de alto nivel lo convierte en el corredor a seguir en la prueba absoluta masculina.",
+          "Mathew Kipchumba, del ADA Calvi-Vistasol, es el otro nombre esencial: revalidó el título en Soria tras un sprint final muy ajustado y llega con la confianza de haber batido a Kwizera una semana antes. En su equipo también figuran Meshack Kipkurqat Kirwa y Nahuel Carabaña, lo que convierte a ADA Calvi-Vistasol en uno de los bloques más peligrosos del campeonato.",
+          "Otros corredores que pueden estar en la lucha por las primeras posiciones son Samuel Simba Cherop, Wegene Adisu Chala y Martín Magengo Kiprotich, todos del C.A. Unión Guadalajara, y Kelvine Kiptoo Murkeu, del Atletismo Albacete. La profundidad de estos equipos será determinante, porque en un campeonato por clubes no vale solo con una cabeza de carrera."
+        ]
+      },
+      {
+        "heading": "Mujeres: Maayouf, Prieto y Robles",
+        "paragraphs": [
+          "En la prueba absoluta femenina, Majida Maayouf —Asics Running— llega tras ser quinta en Itálica y sexta en Soria, donde fue la mejor española con 27:40 en 8 kilómetros. Idaira Prieto, de Bikila, también llega en buena forma tras ser sexta en Soria y mejor española de aquella prueba.",
+          "Carolina Robles, inscrita con Bilbao Atletismo, es otra de las grandes referencias: fue octava en Itálica, primera española de aquella prueba, y en Atapuerca 2025 terminó decimotercera. Su presencia refuerza a un Bilbao Atletismo que el pasado año ganó el título por equipos femenino con solo 39 puntos.",
+          "En el plano internacional, el Cross Internacional incluirá a Nadia Battocletti, Marwa Bouzayani, Francine Niyomukunzi, Mirriam Cherop, Peace Chebet y Stella Chebet, aunque figuran como «No» para el campeonato por clubes. Aun así, su presencia elevará el nivel de la jornada y podrá condicionar el ritmo de las españolas que sí compiten por clubes."
+        ]
+      },
+      {
+        "heading": "Equipos a vigilar",
+        "tables": [
+          {
+            "headers": [
+              "Equipo",
+              "Claves"
+            ],
+            "rows": [
+              [
+                "Facsa-Playas de Castellón",
+                "Cuenta con Rodrigue Kwizera y llega como uno de los bloques más completos; en 2025 fue segundo por equipos en mujeres y ganó el relevo mixto."
+              ],
+              [
+                "ADA Calvi-Vistasol",
+                "Tiene a Mathew Kipchumba, Meshack Kirwa y Nahuel Carabaña; es el principal rival de Facsa en la lucha por el título masculino."
+              ],
+              [
+                "Bilbao Atletismo",
+                "Defiende el título femenino de 2025 y mantiene a Carolina Robles, Alicia Berzosa, Cristina Espejo, Azucena Díaz y Laura Priego."
+              ],
+              [
+                "Vicky Foods Athletics",
+                "Fue cuarto por equipos en mujeres en 2025 y conserva a Ángela Viciosa, cuarta individual en aquella edición."
+              ],
+              [
+                "Diputación Valencia C.A.",
+                "Tercer equipo femenino en 2025, con Beatriz Álvarez, Elia Saura, Carla Masip y Carlota Rodes."
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Andalucía: Trops, a la cabeza",
+        "paragraphs": [
+          "Trops-Cueva de Nerja es el club andaluz con más opciones de brillar. En 2025 quedó quinto por equipos en la absoluta femenina, con Nazha Machrouh undécima e Ikram Rharsalla vigésima, y también fue quinto en el relevo mixto; este año repite núcleo y añade corredores como Pablo Comino, Sala Heddine Hammi e Isabel Navarro.",
+          "Unicaja Jaén Paraíso Interior llega con un bloque masculino experimentado y con una base femenina joven. Su objetivo más realista será pelear por una posición sólida en la clasificación colectiva.",
+          "Trotasierra Hornachuelos presenta un equipo amplio en varias categorías y Polideportivo Olimpo Cádiz cuenta con Irene Reina Pontones, decimotercera en sub-16 femenina en 2025, como una de sus mejores bazas individuales.",
+          "Córdoba Patrimonio C.A.C. repite en el relevo mixto, donde el pasado año fue decimoctavo, junto con Atletismo del Sur y los ya indicados Nerja y Unicaja."
+        ]
+      },
+      {
+        "heading": "La clave: profundidad de bloque",
+        "paragraphs": [
+          "En Atapuerca, el título no se decide solo por el primer clasificado. La diferencia entre los equipos estará en que sus integrantes mantengan un ritmo alto y eviten descolgarse en la segunda mitad; en 2025, la lucha por los primeros puestos masculinos se resolvió con apenas diez puntos entre Atlético Salamanca y Universidad de Oviedo.",
+          "Para Andalucía, la lectura es clara: Trops-Cueva de Nerja tiene opciones reales de entrar en la lucha por los puestos de honor femeninos; Unicaja Jaén y Trotasierra Hornachuelos deben consolidar bloques competitivos; y Polideportivo Olimpo Cádiz puede dar una sorpresa en categorías juveniles. El terreno y el ritmo de los africanos y europeos de élite presentes en el Cross Internacional marcarán el tono de una jornada que promete ser muy exigente."
+        ]
+      }
+    ]
+  },
+  {
     slug: "previa-cross-soria-2026",
     date: "13 nov 2026",
     tag: "Cross",
