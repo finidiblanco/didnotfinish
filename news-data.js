@@ -95,6 +95,91 @@ export const GENERAL_NEWS = [
     ]
   },
   {
+    "slug": "cronica-cross-soria-2026",
+    "date": "15 nov 2026",
+    "tag": "Cross",
+    "title": "Kipchumba gana a Kwizera por centímetros y Cherop manda en Soria",
+    "subtitle": "Misma marca, 23:49, para los dos primeros en Valonsadero; Charity Cherop se escapa en solitario e Idaira Prieto es la mejor española",
+    "body": "<strong>Soria, 15 de noviembre de 2026.</strong> El XXXII Campo a Través Internacional de Soria se decidió bajo frío, lluvia y viento en el monte Valonsadero. En la carrera masculina, el keniano <strong>Matthew Kipchumba</strong> revalidó su victoria de 2025 con 23:49, el mismo tiempo que <strong>Rodrigue Kwizera</strong>, segundo por centímetros y mejor español. En la femenina, la ugandesa <strong>Charity Cherop</strong> dominó de principio a fin con 26:19, e <strong>Idaira Prieto</strong> fue la primera española.",
+    "sections": [
+      {
+        "heading": "Carrera masculina: un sprint de centímetros en el último repecho",
+        "paragraphs": [
+          "Los 8.000 metros empezaron con un ritmo muy fuerte de <strong>Felix Kiptarus Korir</strong>, con el español <strong>Pablo Sánchez</strong> y el etíope <strong>Adisu Wegene</strong> entre los primeros. En el tercer giro quedaban cinco corredores en cabeza: <strong>Dismas Yeko, Charles Kiboino, Kipchumba, Kwizera y Fasika Ayele</strong>.",
+          "La carrera se decidió en el último repecho. <strong>Kipchumba tomó la iniciativa y entró primero en la recta final</strong>, donde Kwizera apretó hasta quedarse a centímetros: ambos cerraron en <strong>23:49</strong>. El etíope <strong>Fasika Ayele</strong> completó el podio con 23:51.",
+          "Con la victoria, Kwizera, que corre en el Playas de Castellón y es de origen burundés, habría sido el atleta con más triunfos en la historia de Valonsadero. Kipchumba, que ya ganó en 2025, repite título."
+        ]
+      },
+      {
+        "heading": "Carrera femenina: Cherop se va en el tercer giro",
+        "paragraphs": [
+          "Una escapada inicial reunió a <strong>Charity Cherop, Stella Chebet, Cynthia Chepkirui, Lemlem Nibret y Mirriam Cherop</strong>. El grupo perseguidor, con las españolas <strong>Idaira Prieto</strong> y <strong>Carla Gallardo</strong> y las portuguesas <strong>Mariana Machado</strong> y <strong>Salomé Afonso</strong>, llegó a ceder 25 segundos.",
+          "En el tercer giro, <strong>Charity Cherop</strong> se marchó en solitario y ganó con <strong>26:19</strong>. La keniana <strong>Cynthia Chepkirui</strong> fue segunda con 26:33, a 14 segundos, y su compatriota <strong>Mirriam Cherop</strong> tercera con 26:39."
+        ],
+        "tables": [
+          {
+            "caption": "Clasificación conjunta sénior y sub-23 (femenina)",
+            "headers": [
+              "Puesto",
+              "Atleta",
+              "Marca"
+            ],
+            "rows": [
+              [
+                "1",
+                "Charity Cherop (Uganda)",
+                "26:19"
+              ],
+              [
+                "2",
+                "Cynthia Chepkirui (Kenia)",
+                "26:33"
+              ],
+              [
+                "3",
+                "Mirriam Cherop (Kenia)",
+                "26:39"
+              ],
+              [
+                "4",
+                "Lemlem Nibret Alemu",
+                "27:03"
+              ],
+              [
+                "5",
+                "Mariana Machado (Portugal)",
+                "27:31"
+              ],
+              [
+                "6",
+                "Idaira Prieto Suárez",
+                "27:40"
+              ],
+              [
+                "7",
+                "Salomé Afonso (Portugal)",
+                "27:43"
+              ],
+              [
+                "8",
+                "Carla Gallardo",
+                "28:08"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Lo español: Kwizera, segundo; Prieto, sexta",
+        "list": [
+          "<strong>Rodrigue Kwizera</strong>, segundo en la carrera masculina con 23:49, mejor español.",
+          "<strong>Idaira Prieto</strong>, sexta en la clasificación conjunta con 27:40, mejor española, y segunda mejor europea tras Mariana Machado (27:31), que fue quinta.",
+          "<strong>Carla Gallardo</strong>, octava con 28:08."
+        ]
+      }
+    ]
+  },
+  {
     slug: "previa-cross-soria-2026",
     date: "13 nov 2026",
     tag: "Cross",
