@@ -1,0 +1,10 @@
+{
+  "name": "didnotfinish",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@netlify/database": "^2.0.1",
+    "@netlify/edge-functions": "^4.0.3",
+    "@netlify/functions": "^6.1.0"
+  }
+}

@@ -1,0 +1,5 @@
+# Cada noticia tiene su propia dirección: /noticias/<slug>
+[[redirects]]
+  from = "/noticias/*"
+  to = "/index.html"
+  status = 200
