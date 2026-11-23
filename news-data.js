@@ -14,6 +14,108 @@
 // ---------------------------------------------------------------
 export const GENERAL_NEWS = [
   {
+    "slug": "cronica-atapuerca-2026",
+    "date": "22 nov 2026",
+    "tag": "Cross",
+    "title": "Kwizera e Idaira Prieto reinan en Atapuerca; Trops-Cueva de Nerja, plata sub-20 y bronce sub-23",
+    "subtitle": "El XXII Cross Internacional de Atapuerca coronó a ADA Calvià–Vistasol y Bilbao Atletismo en la categoría absoluta, con el atletismo andaluz sumando podios en las categorías de base.",
+    "body": "El Centro de Arqueología Experimental de Atapuerca acogió este domingo el Campeonato de España de Campo a Través por Clubes, dentro del XXII Cross Internacional de Atapuerca. La jornada reunió desde las categorías sub-16 hasta la absoluta, que cerró el programa matinal sobre 7.661 metros, y terminó con el relevo mixto.",
+    "sections": [
+      {
+        "paragraphs": [
+          "Atapuerca (Burgos) · Por @Finidiblanco · Fuente: resultados oficiales (Conersys)"
+        ]
+      },
+      {
+        "image": "/images/atapuerca-2026-carrera-femenina.jpg",
+        "imageAlt": "Corredoras de la prueba femenina del Cross de Atapuerca, con una atleta de azul en primer plano",
+        "imageCaption": "Foto: @Finidiblanco.",
+        "imageWidth": 1333,
+        "imageHeight": 2000
+      },
+      {
+        "heading": "Absoluta masculina: Kwizera gana y Calvià se lleva el título por clubes",
+        "paragraphs": [
+          "Rodrigue Kwizera (Facsa – Playas de Castellón) fue el primero en cruzar la meta, con 22:38, y se proclamó campeón de España individual. Por detrás, los invitados internacionales Berihu Aregawi (Etiopía, 22:41) y Fasika Ayele (Etiopía, 22:45) completaron el podio absoluto de la carrera. En la clasificación española, Mathew Kipchumba Kipsang (ADA Calvià – Vistasol, 22:54) fue segundo y Miguel Ángel Chazarra (Facsa, 23:04) tercero.",
+          "Por equipos, ADA Calvià – Vistasol se impuso con 28 puntos, por delante de Facsa – Playas de Castellón (41) y Vicky Foods Athletics (59). Carnicas Serrano (60) y Unión Guadalajara (65) completaron el top 5."
+        ],
+        "tables": [
+          {
+            "caption": "Absoluta masculina · clasificación por clubes",
+            "headers": ["Pos.", "Club", "Puntos"],
+            "rows": [
+              ["1", "ADA Calvià – Vistasol", "28"],
+              ["2", "Facsa – Playas de Castellón", "41"],
+              ["3", "Vicky Foods Athletics", "59"],
+              ["4", "C.A. Carnicas Serrano", "60"],
+              ["5", "C.A. Unión Guadalajara", "65"]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Absoluta femenina: Cherop manda en la carrera e Idaira Prieto, campeona de España",
+        "paragraphs": [
+          "La keniana Mirriam Cherop (invitada) ganó con 25:56, el mismo tiempo que las etíopes Wosane Asefa y Asefu Abreha, que ocuparon el segundo y tercer puesto. En la clasificación nacional, Idaira Prieto (Bilbao Atletismo) fue la primera española, con 26:39, seguida de la sevillana Carolina Robles (Bilbao Atletismo, 26:48) y de Carla Lorrany Arce (Bilbao Atletismo, 26:48).",
+          "El triplete de Bilbao Atletismo entre las tres primeras españolas le dio el título por equipos con solo 19 puntos, por delante de Vicky Foods Athletics (36) y Carnicas Serrano (38). Diputación Valencia (62) fue cuarto y Metaesport Riba-Roja Turia (98) quinto."
+        ],
+        "tables": [
+          {
+            "caption": "Absoluta femenina · clasificación por clubes",
+            "headers": ["Pos.", "Club", "Puntos"],
+            "rows": [
+              ["1", "Bilbao Atletismo", "19"],
+              ["2", "Vicky Foods Athletics", "36"],
+              ["3", "C.A. Carnicas Serrano", "38"],
+              ["4", "Diputación Valencia C.A.", "62"],
+              ["5", "Metaesport Riba-Roja Turia", "98"]
+            ]
+          }
+        ]
+      },
+      {
+        "image": "/images/atapuerca-2026-carrera-masculina.jpg",
+        "imageAlt": "Dos corredores pasan junto a las cabañas de techo de paja del circuito de Atapuerca",
+        "imageCaption": "Foto: @Finidiblanco.",
+        "imageWidth": 2000,
+        "imageHeight": 1333
+      },
+      {
+        "heading": "El atletismo andaluz en la absoluta",
+        "paragraphs": [
+          "<strong>Hombres.</strong> <strong>Trops-Cueva de Nerja</strong> fue el mejor club andaluz, noveno con 158 puntos. Lo lideró Zakaria Boufaljat (24:16, 38º de la general y 23º de la clasificación por equipos), con Carlos Ángel Gómez (24:24, 43º), Nabil Sebbar (25:02, 69º), Daniel García Gavilán (25:23, 86º) y Pablo Salcedo (25:46, 111º).",
+          "<strong>CD Surco Lucena</strong> terminó 14º con 349 puntos, con Jorge Fresnillo (25:05, 70º), Jaime González Mancha (25:25, 90º), Diego de la Fuente (26:08, 141º) y Álvaro de la Fuente (26:39, 177º). <strong>Unicaja Jaén Paraíso Interior</strong> fue 21º con 416, con Alberto Casas (25:30, 96º), Andrés Estepa (25:50, 117º), Manuel Triviño (26:29, 163º) y Sebastián Martos (26:46, 184º).",
+          "<strong>Mujeres.</strong> La mejor andaluza fue <strong>Carolina Robles</strong>, 12ª de la general y segunda española con Bilbao Atletismo (26:48), clave en el título del club vasco. Entre las demás andaluzas destacan María Forero (invitada, con licencia onubense, 17ª, 27:08) y Nazha Machrouh (Trops-Cueva de Nerja, 35ª, 28:15).",
+          "<strong>Trops-Cueva de Nerja</strong> fue novena por equipos (225 puntos), con Machrouh, María Cano (53ª, 29:37), María del Mar Márquez (92ª, 30:54) e Irene Yébenes (161ª, 33:39). <strong>Unicaja Jaén Paraíso Interior</strong> fue 13º (283), con María Barbero (45ª, 29:01), Cynthia Ramírez (114ª, 31:43), Noelia Valenzuela (123ª, 32:08) y Marta Corazón (139ª, 32:32). <strong>Trotasierra Hornachuelos</strong> acabó 26º (408), con Carmen Inmaculada Valle (104ª), Mónica Ortiz (128ª), Virginia Moya (163ª), Isabel Cristina García (173ª) y Rafaela Mengual (196ª).",
+          "Otras andaluzas puntuaron con clubes de fuera: Claudia Estévez (Carnicas Serrano, 58ª, 29:51, tercer equipo de España) y Tamara Pérez y Lucía Pérez (Running Pinto Seoane – Pampín, 59ª y 105ª; sextas por equipos)."
+        ],
+        "tables": [
+          {
+            "caption": "Clubes andaluces en la absoluta",
+            "headers": ["Club", "Categoría", "Pos.", "Puntos"],
+            "rows": [
+              ["Trops-Cueva de Nerja", "Hombres", "9º", "158"],
+              ["CD Surco Lucena", "Hombres", "14º", "349"],
+              ["Unicaja Jaén Paraíso Interior", "Hombres", "21º", "416"],
+              ["Trops-Cueva de Nerja", "Mujeres", "9º", "225"],
+              ["Unicaja Jaén Paraíso Interior", "Mujeres", "13º", "283"],
+              ["Trotasierra Hornachuelos", "Mujeres", "26º", "408"]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Podios y buenos puestos andaluces en las categorías de base",
+        "paragraphs": [
+          "El mejor resultado andaluz del día llegó en sub-20 femenino: <strong>Trops-Cueva de Nerja fue subcampeón de España por clubes</strong> con 58 puntos. En sub-23 masculino el club malagueño sumó el <strong>bronce</strong> (85 puntos), con Pablo Serrano Galacho en novena posición individual (19:30). El sub-23 femenino de Trops fue cuarto (100 puntos).",
+          "En sub-16 masculino, <strong>José Manuel García Navarro</strong> (DELSUR Coop La Palma) ganó la prueba con 9:19. En sub-18 masculino, <strong>Trotasierra Hornachuelos</strong> fue quinto por equipos (165 puntos) y Manuel Cruz Tejada fue cuarto individual (12:27). En sub-20 femenino, Carla Cabezas (Unicaja Jaén Paraíso Interior) fue novena (18:11).",
+          "También puntuaron entre los diez primeros Trops-Cueva de Nerja en sub-16 femenino (quinto, 208 puntos) y Trotasierra Hornachuelos en sub-18 femenino (décimo, 270 puntos)."
+        ],
+        "after": ["<em>Datos tomados del PDF oficial de resultados del campeonato (Conersys Sports Solutions). La clasificación individual incluye atletas invitados (I) que no puntúan por equipos; las posiciones por equipos se refieren al club.</em>"]
+      }
+    ]
+  },
+  {
     "slug": "previa-cross-atapuerca-2026-campeonato-espana-clubes",
     "date": "18 nov 2026",
     "tag": "Cross",
