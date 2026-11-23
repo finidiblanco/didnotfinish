@@ -1789,7 +1789,7 @@
     return item.sections.map(section => `
       <section>
         ${section.heading ? `<h4>${section.heading}</h4>` : ''}
-        ${section.image ? `<figure class="news-figure"><img src="${escapeHtml(section.image)}" alt="${escapeHtml(section.imageAlt || '')}" loading="lazy" width="720" height="1080">${section.imageCaption ? `<figcaption>${escapeHtml(section.imageCaption)}</figcaption>` : ''}</figure>` : ''}
+        ${section.image ? `<figure class="news-figure"><img src="${escapeHtml(section.image)}" alt="${escapeHtml(section.imageAlt || '')}" loading="lazy" width="${section.imageWidth ?? 720}" height="${section.imageHeight ?? 1080}">${section.imageCaption ? `<figcaption>${escapeHtml(section.imageCaption)}</figcaption>` : ''}</figure>` : ''}
         ${(section.paragraphs || []).map(paragraph => `<p>${paragraph}</p>`).join('')}
         ${section.list ? `<ul>${section.list.map(point => `<li>${point}</li>`).join('')}</ul>` : ''}
         ${(section.tables || []).map(table => `
