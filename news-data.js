@@ -943,6 +943,78 @@ export const GENERAL_NEWS = [
 // ---------------------------------------------------------------
 export const ANDALUCIA_NEWS = [
   {
+    slug: "previa-campeonato-andalucia-clubes-sub20",
+    date: "25 nov 2026",
+    tag: "Atletismo andaluz",
+    title: "Campeonato de Andalucía Sub20 por clubes: Trops parte como favorito",
+    subtitle: "Trops-Cueva de Nerja llega con opciones de título en hombres y mujeres; Delsur, Unicaja Jaén y Trotasierra aspiran a disputarle el podio",
+    body: "El Campeonato de Andalucía Sub20 por clubes se presenta con varios focos de interés. En hombres, Trops-Cueva de Nerja parte como principal candidato, con Delsur Coop La Palma y Trotasierra Hornachuelos al acecho. En mujeres, Trops también reúne una plantilla muy competitiva, aunque Unicaja Jaén, Delsur y Trotasierra buscarán aprovechar sus opciones.",
+    sections: [
+      {
+        heading: "Hombres: Trops, el bloque a batir",
+        paragraphs: [
+          "Trops-Cueva de Nerja parte como principal candidato. Fue el gran dominador del Andaluz Sub20 de clubes de pista cubierta de la temporada anterior y en el campeonato individual andaluz de 2026 sumó 22 medallas: 11 oros, 6 platas y 5 bronces.",
+          "Fernando Barrau (47.87 en 400 m), Miguel Collado (1:50.55 en 800 m), Samuel Ruiz (8:28.38 en 3.000 m) y Sergio López Molina (14.85 en triple salto) encabezan un bloque con opciones de sumar en muchas pruebas.",
+          "Delsur Coop La Palma es su principal perseguidor. En el Andaluz Sub20 Short Track de 2026 consiguió tres medallas; Sergio Granado ganó los 800 m y Rodrigo García, el peso. También destacan Darío Segovia (48.83 en 400 m), Antonio Cubo (6.67 en longitud) y Juan García Cruz (13.30 en triple salto).",
+          "Trotasierra Hornachuelos completa el grupo de favoritos. La temporada anterior fue bronce por clubes tanto en hombres como en mujeres. Daniel Arrieta (48.75 en 400 m), Alejandro Peralvarez (3:58.65 en 1.500 m) y Gonzalo Pérez (8:55.90 en 3.000 m) pueden aportar puntos importantes."
+        ]
+      },
+      {
+        heading: "Hombres: atletas destacados por prueba",
+        list: [
+          "<strong>60 m:</strong> Francisco de las Heras (Granada Joven) lidera el listado con 6.71. Iker Fernández (Trops-Cueva de Nerja), con 6.94, es uno de sus principales rivales. Aaron Moriano (Trotasierra), con 7.04, y Prince Yunus Sayawo (Juventud Atletismo Granada), con 7.02, también aspiran al podio.",
+          "<strong>60 m vallas:</strong> Gregorio Luis Crespo (Granada Joven) es el favorito con 8.09. Eduardo Soriano (Trotasierra), con 8.62, y Lukas Berges (Olimpo Cádiz), con 8.83, buscarán las otras plazas. Santiago Rodríguez Block (Trops), sin marca acreditada en el listado, puede ser una sorpresa.",
+          "<strong>400 m:</strong> Fernando Barrau (Trops) parte como referencia con 47.87. Anyelo Felman (Granada Joven), con 48.61, Daniel Arrieta (Trotasierra), con 48.75, y Darío Segovia (Delsur), con 48.83, completan la pelea.",
+          "<strong>800 m:</strong> Miguel Collado (Trops) lidera con 1:50.55. Juan Antonio Pérez (Bahía Algeciras), con 1:53.02, y Javier Pérez Grosso (CA Chapín Jerez), con 1:54.11, son las alternativas más sólidas.",
+          "<strong>1.500 m:</strong> Alejandro Peralvarez (Trotasierra), con 3:58.65, es el único del listado por debajo de cuatro minutos. Mario Santiago (Unicaja Jaén), con 4:06.33, y Mario Casas (Trops), con 4:06.40, aspiran a las otras medallas.",
+          "<strong>3.000 m:</strong> Samuel Ruiz (Trops) domina el listado con 8:28.38, por delante de Gonzalo Pérez (Trotasierra), con 8:55.90, y Francisco Javier Pineda (Granada Joven), con 9:27.87.",
+          "<strong>Altura:</strong> Javier Orihuela (Unicaja Jaén), con 1.97, es el favorito. Adrián García (Córdoba Patrimonio), con 1.91, y Hugo Domínguez (Trops), con 1.90, completan el podio teórico. Bernardo Gajete (Trotasierra), con una mejor marca personal de 1.92, puede aspirar a más si recupera su nivel.",
+          "<strong>Longitud:</strong> Samuel López Polo (Atletismo Málaga) llega con 7.15. Antonio Cubo (Delsur), con 6.67, y Javier Díaz (Granada Joven), con 6.40, optan a las otras plazas.",
+          "<strong>Triple salto:</strong> Sergio López Molina (Trops) parte como gran favorito con 14.85. Adrián Segura (Atletismo Málaga), con 14.26, y Juan García Cruz (Delsur), con 13.30, pelearán por el resto del podio."
+        ]
+      },
+      {
+        heading: "Hombres: las claves de la competición",
+        list: [
+          "Trops-Cueva de Nerja combina favoritos individuales —Barrau, Collado, Ruiz y López Molina— con atletas capaces de sumar puntos en otras pruebas. Esa profundidad puede ser decisiva en una competición por clubes.",
+          "Delsur necesita aprovechar sus opciones de medalla, especialmente con Cubo en longitud, Segovia en 400 m y García Cruz en triple salto.",
+          "Trotasierra cuenta con un bloque sólido de medio fondo, con Peralvarez, Pérez y Membrives, además de atletas competitivos en velocidad y vallas. La lucha por el bronce está abierta.",
+          "Francisco de las Heras y Aaron Moriano, nacidos en 2009, destacan por su progresión: llegan a Sub20 después de competir en Sub18 y ya están entre los nombres a seguir."
+        ]
+      },
+      {
+        heading: "Mujeres: Trops también parte en cabeza",
+        paragraphs: [
+          "Trops-Cueva de Nerja es el principal favorito. Ganó el Andaluz Sub20 al aire libre de 2026 con 177 puntos y cuenta con las mejores marcas del listado en 60 m, 800 m, 1.500 m, 3.000 m y longitud.",
+          "Unicaja Jaén, segundo al aire libre con 148,5 puntos, es su principal perseguidor. Irene Llamas (7.75 en 60 m) y Julia López (2.85 en pértiga) pueden sumar puntos importantes.",
+          "Delsur Coop La Palma fue tercero al aire libre con 144 puntos. Blanca Barbero (4:52.64 en 1.500 m) y Elena Rodríguez (3.10 en pértiga) encabezan sus opciones.",
+          "Trotasierra Hornachuelos es una amenaza para el podio. Elsa Parrilla, con 14.38 en peso, tiene la mejor marca de la prueba con una amplia diferencia sobre sus rivales."
+        ]
+      },
+      {
+        heading: "Mujeres: atletas destacadas por prueba",
+        list: [
+          "<strong>60 m:</strong> Lucía Vaca (Trops) lidera con 7.61. Irene Llamas (Unicaja Jaén), con 7.75, y Lola Llompart (Olimpo Cádiz), con 7.82, aspiran a las otras medallas.",
+          "<strong>800 m:</strong> Clara Navarro (Trops) encabeza el listado con 2:09.00. María Regidor Vargas-Machuca (Bahía Algeciras), con 2:14.63, y Sofía García (Olimpo Cádiz), con 2:18.42, son las principales alternativas.",
+          "<strong>1.500 m:</strong> Lucía Rodríguez (Trops) lidera con 4:36.72; su mejor marca personal es 4:28.51. María Carrasco (Trotasierra), con 4:49.97, y Blanca Barbero (Delsur), con 4:52.64, completan el grupo de candidatas.",
+          "<strong>3.000 m:</strong> María Flores (Trops) es la favorita con 10:10.45. Irene Morales (Bahía Algeciras), con 11:03.27, y Carmen Bernabéu (Córdoba Patrimonio), con 11:10.28, son las siguientes en el listado.",
+          "<strong>Pértiga:</strong> Elena Rodríguez (Delsur) y Blessing Esohe Yaya Ali (Córdoba Patrimonio) comparten la mejor marca, con 3.10. Julia López (Unicaja Jaén), con 2.85, también puede entrar en la pelea.",
+          "<strong>Longitud:</strong> Raquel Lobo (Trops) parte como favorita con 6.08; su mejor marca personal es 6.14. Ana Clavero (Córdoba Patrimonio), con 5.60, y Rebeca Torres (Trotasierra), con 5.56, optan a las otras plazas.",
+          "<strong>Peso:</strong> Elsa Parrilla (Trotasierra) domina con 14.38, casi cuatro metros más que la siguiente marca. Paula Moreno (Trops), con 10.65, y Michelle OROH Ladaga (Atletismo Málaga), con 10.45, aspiran a las otras medallas."
+        ]
+      },
+      {
+        heading: "Mujeres: las claves de la competición",
+        list: [
+          "Trops tiene líderes en cinco pruebas del listado: Lucía Vaca en 60 m, Clara Navarro en 800 m, Lucía Rodríguez en 1.500 m, María Flores en 3.000 m y Raquel Lobo en longitud.",
+          "Elsa Parrilla puede ser decisiva para Trotasierra en peso, donde su marca destaca claramente sobre las demás.",
+          "Unicaja Jaén y Delsur buscarán sumar de forma regular en varias pruebas para disputar la segunda y la tercera plaza por clubes."
+        ]
+      }
+    ]
+  },
+  
+  {
     slug: "andalucia-11-medallas-malaga-2026",
     date: "19 ago 2026",
     tag: "Campeonato de España",
